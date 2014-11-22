@@ -1,0 +1,139 @@
+/*===================================================================*/
+/* CUSTOM NOTIFICATION STYLES
+/*===================================================================*/
+div.updated.bean-plugin-notification .dismiss-notice {
+	float: right;
+}
+
+
+/*===================================================================*/
+/* WIDGET NOTIFICATION STYLES
+/*===================================================================*/
+div.bean-widget-notification {
+	background-color: #f1f1f1;
+	margin-bottom: 20px;
+	margin-top: 15px;
+	padding: 10px 12px;
+}
+
+
+/*===================================================================*/
+/* WIDGET AREAS
+/*===================================================================*/
+#bean-conditions {
+	margin-top: 30px;
+}
+
+#bean-conditions .ui-corner-all, 
+#bean-conditions .ui-corner-bottom, 
+#bean-conditions .ui-corner-right, 
+#bean-conditions .ui-corner-br {
+	border: none!important;
+	border-radius: 0px!important;
+	box-shadow: none!important;
+}
+
+#bean-conditions .ui-state-default, 
+#bean-conditions .ui-widget-content .ui-state-default, 
+#bean-conditions .ui-widget-header .ui-state-default {
+	border: none!important;
+	box-shadow: none!important;
+}
+
+#sidebar-to-replace .inside {
+	padding: 20px;
+}
+
+.categorydiv-desc {
+	padding: 20px 10px;
+}
+
+.conditions-tabs li { 
+	display: inline; 
+	margin: 3px 0; 
+	padding: 5px; 
+}
+
+.bean-conditions .ui-tabs-hide { 
+	display: none !important; 
+}
+
+.bean-conditions .conditions-tabs { 
+	background: none!important;
+	border: none!important;
+	margin-top: 30px!important;
+	padding: 0px 15px 0px!important;
+	overflow:hidden;
+}
+
+.bean-conditions .conditions-tabs li { 
+	float:left;
+	padding:0;
+	margin:0 7px 0 0; 
+}
+
+.bean-conditions .conditions-tabs li.alignright { 
+	float: right; 
+}
+
+.bean-conditions .conditions-tabs li a { 
+	outline: none;
+	padding: 0px 8px!important;
+}
+
+.bean-conditions .conditions-tabs li.ui-state-active a { 
+	background:#FFF;
+	border-color: #999;
+}
+
+#bean-conditions.postbox .inside { 
+	padding: 0; 
+	margin: 0; 
+}
+	
+#bean-conditions.postbox .inside .condition-tab { 
+
+	padding: 2px 18px; 
+}
+	
+#bean-conditions.postbox .inside .condition-tab h4 { 
+	margin-top: 15px; 
+}
+
+#bean-conditions.postbox .conditions-column { 
+	display: block; 
+	margin: 0 40px 0px 0; 
+}
+
+#bean-conditions.postbox .conditions-tabs-inner { 
+	display: block; 
+	padding: 10px 0; 
+}
+
+.conditions-tabs-inner li { 
+	display: inline; 
+	padding: .2em; 
+	line-height: 2; 
+	margin: 0; 
+}
+
+.conditions-tabs-inner li a { 
+	margin-right: 5px; 
+	text-decoration: none; 
+}
+
+.conditions-tabs-inner li.ui-state-active a { 
+	color: #000000; 
+	font-weight: bold; 
+}
+
+#bean-conditions.postbox .inside .condition-tab .condition-tab { 
+	padding: 2px 0px; 
+}
+
+.column-beansidebars_enable { width: 12%; }
+
+/* HIDE SLIDER NAV ITEMS, DONT NEED THEM */
+#nav-menu-meta #add-slide.control-section.accordion-section.add-slide {
+	display: none;
+}

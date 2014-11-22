@@ -1,0 +1,87 @@
+1.4.1 - Sept 12, 2014
+
+** Spaces Changelog **
+
+12 September 2014 - Version 1.4.1
+	* Portfolio custom meta fields support (NEW)
+	* Added product/shop footer pagination
+	* Added likes function to single portfolio
+	* Masonry lightbox caption fix
+	* Std portfolio likes z-index fix
+	* Updated pre style - horizontal scroll support
+	* Updated languages
+
+4 September 2014 - Version 1.4.0
+	* WP 4.0 compatibility update
+	* Added support for the Gravity Forms plugin (NEW)
+	* Masonry single gallery image lightbox fix
+	* Updated languages
+
+26 August 2014 - Version 1.3.3
+	* Blogroll typo fix
+
+26 August 2014 - Version 1.3.2
+	* Search index fix
+
+25 August 2014 - Version 1.3.1
+	* Add a subscribe form to your posts with Mailbag support (NEW)
+	* Added an option to display related portfolio posts (NEW)
+	* Portfolio filter support via the new Portfolio Filter widget (NEW)
+	* Updated languages
+
+22 August 2014 - Version 1.3
+	* Added column layout selector (standard and large) (NEW)
+	* Improved portfolio archival views - now switches with your layout
+	* Modified header to output category description if added
+	* Updated languages
+
+19 August 2014 - Version 1.2.2
+	* Masonry templates enqueue fix
+	* Grid theme_layout non-standard fix
+	* Added sub and sup styling
+	* Updated languages
+
+12 August 2014 - Version 1.2.1
+	* Added carousel single portfolio layout (lightbox & default) (NEW)
+	* Modified header to output content, if default portfolio block is disabled
+	* Style 3 & 4 adjustments
+	* Child theme update
+	* Updated languages
+
+10 August 2014 - Version 1.2.0
+	* Added back to portfolio pagination link (NEW)
+	* Added masonry lightbox templates (STD and Fullwidth) (NEW)
+	* template-portfolio-masonry-fullwidth.php (NEW)
+	* template-portfolio-masonry-fullwidth-lightbox.php (NEW)
+	* Updated languages
+
+9 August 2014 - Version 1.1.2
+	* Added Style 4 (Classic/Helvetica) (NEW)
+	* style-4.css (NEW)
+	* Updated languages
+
+9 August 2014 - Version 1.1.1
+	* Centered header layout fix
+	* Updated packaged plugins - typo
+	* Style 3 (roboto) adjustments
+	* Masonry functions enqueue
+	* Updated languages
+
+8 August 2014 - Version 1.1.0
+	* content-team.php (NEW)
+	* template-team.php (NEW)
+	* meta-team.php (NEW)
+	* loop-team.php (NEW)
+	* bean-team-members.zip (NEW)
+	* bean-testimonials.zip (NEW)
+	* content-testimonials.php (NEW)
+	* template-testimonials.php (NEW)
+	* Logo text customizer added (NEW)
+	* Bean Team Members compatibitly
+	* Bean Testimonials compatibitly
+	* Added team output shortcode: [team]
+	* Added testimonials output shortcode: [testimonials]
+	* Style 2 (dark) adjustments
+
+7 August 2014 - Version 1.0
+	* Initial release

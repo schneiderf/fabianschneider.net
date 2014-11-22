@@ -1,0 +1,2007 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Spaces\n"
+"POT-Creation-Date: 2014-09-12 07:33-0500\n"
+"PO-Revision-Date: 2014-09-12 07:33-0500\n"
+"Last-Translator: Rich Tabor <hello@themebeans.com>\n"
+"Language-Team: Rich Tabor <hello@themebeans.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:30
+msgid "Go Back"
+msgstr ""
+
+#: 404.php:30
+msgid " or "
+msgstr ""
+
+#: 404.php:30
+msgid "Go Home"
+msgstr ""
+
+#: comments.php:35 content-post-meta.php:27 loop-post.php:65
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:35 content-post-meta.php:27 loop-post.php:65
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:35 content-post-meta.php:27 loop-post.php:65
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:75
+msgid "Trackbacks."
+msgstr ""
+
+#: comments.php:99
+msgid "Comments have been disabled."
+msgstr ""
+
+#: content-portfolio-meta.php:72
+msgid "For "
+msgstr ""
+
+#: content-portfolio-meta.php:80
+msgid "On "
+msgstr ""
+
+#: content-portfolio-meta.php:86
+msgid "In "
+msgstr ""
+
+#: content-portfolio-meta.php:91
+msgid "Views "
+msgstr ""
+
+#: content-portfolio-meta.php:91
+msgid " & Counting"
+msgstr ""
+
+#: content-portfolio-meta.php:95
+msgid "Tags "
+msgstr ""
+
+#: content-portfolio-more.php:46 content-portfolio-related.php:42
+#: content-template-carousel.php:75 content-template-carousel.php:103
+#: content-template-carousel.php:134 content-template-fullscreen.php:72
+#: content-template-fullscreen.php:106 content-template-fullscreen.php:135
+#: content-template-fullwidth.php:66 content-template-fullwidth.php:102
+#: content-template-portfolio-grid.php:177
+#: inc/post-formats/content-audio.php:38 inc/post-formats/content.php:33
+#: inc/widgets/widget-portfolio-menu.php:94
+#: inc/widgets/widget-portfolio.php:97 loop-portfolio-grid.php:24
+#: loop-portfolio-grid.php:30 loop-portfolio.php:23 loop-portfolio.php:38
+#: loop-portfolio.php:41 woocommerce/content-product.php:44
+#: woocommerce/content-product.php:78
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: content-portfolio-more.php:67 content-portfolio-related.php:62
+#: single-portfolio.php:179
+msgid "Portfolio &rarr;"
+msgstr ""
+
+#: content-portfolio-social.php:34
+msgid "Tweet"
+msgstr ""
+
+#: content-portfolio-social.php:35
+msgid "Share"
+msgstr ""
+
+#: content-portfolio-social.php:36
+msgid "Pin"
+msgstr ""
+
+#: content-portfolio-social.php:37
+msgid "Send"
+msgstr ""
+
+#: content-post-meta.php:21
+msgid "By"
+msgstr ""
+
+#: content-post-meta.php:23
+msgid "On"
+msgstr ""
+
+#: content-post-meta.php:25
+msgid "In"
+msgstr ""
+
+#: content-post-meta.php:27
+msgid "With"
+msgstr ""
+
+#: content-post-meta.php:29 inc/post-formats/content-aside.php:35
+#: inc/post-formats/content-quote.php:36 loop-post.php:44
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-post-meta.php:29
+msgid "Permalink"
+msgstr ""
+
+#: content-template-carousel.php:118 content-template-fullscreen.php:121
+#: inc/functions/media.php:276 inc/functions/media.php:371
+msgid "Next"
+msgstr ""
+
+#: content-template-carousel.php:119 content-template-fullscreen.php:122
+#: inc/functions/media.php:277 inc/functions/media.php:372
+msgid "Previous"
+msgstr ""
+
+#: content-template-portfolio-grid.php:242
+msgid "Load More"
+msgstr ""
+
+#: content-template-portfolio-grid.php:243
+msgid "Done Loading"
+msgstr ""
+
+#: footer.php:69 footer.php:77
+msgid "%link"
+msgstr ""
+
+#: footer.php:92
+msgid "Prev Page"
+msgstr ""
+
+#: footer.php:93
+msgid "Next Page"
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:23
+msgid "<span>Theme:</span> <span class=\"debug-detail\">"
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:24
+msgid "View Changelog"
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:29
+msgid "PHP: "
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:29
+msgid "(Requires >PHP 5.2.4)"
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:31
+msgid "MySQL: "
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:31
+msgid " (Requires >MySQL 5.0)"
+msgstr ""
+
+#: framework/debug/bean-debug-footer.php:33
+msgid "CURL: "
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:26
+msgid "SEO Settings"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:27
+msgid "Customize the SEO settings of your posts/pages"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:33
+#: inc/widgets/widget-portfolio-filter.php:132
+#: inc/widgets/widget-portfolio-menu.php:162
+#: inc/widgets/widget-portfolio-taxonomy.php:129
+#: inc/widgets/widget-portfolio.php:163 inc/widgets/widget-video.php:110
+msgid "Title:"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:34
+msgid "The page or post title. Maximum of 60 characters."
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:40
+msgid "Description:"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:41
+msgid "A description of your page or post. Maximum of 160 characters."
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:47
+msgid "Keywords:"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:48
+msgid "List SEO keywords, separated by commas."
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:54
+msgid "Meta Robots Index:"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:55
+msgid "Do you want robots to index this page?"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:62
+msgid "Meta Robots Follow:"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:63
+msgid "Do you want robots to follow links from this page?"
+msgstr ""
+
+#: framework/functions/bean-admin-meta-seo.php:107
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:81
+msgid "Insert"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:119
+msgid "Create Gallery"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:126
+#: framework/functions/bean-admin-metaboxes.php:133
+#: framework/functions/bean-admin-metaboxes.php:242
+#: framework/functions/bean-admin-metaboxes.php:244
+msgid "Edit Gallery"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:132 functions.php:776
+msgid "Cancel"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:169
+msgid "Save Gallery"
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:179
+msgid "Saving..."
+msgstr ""
+
+#: framework/functions/bean-admin-metaboxes.php:313
+msgid "Yes, please do"
+msgstr ""
+
+#: framework/functions/bean-admin-plugin-feed.php:76
+msgid "More Plugins by ThemeBeans"
+msgstr ""
+
+#: framework/functions/bean-admin-plugin-feed.php:77
+msgid ""
+"Free & premium WordPress plugins that our team has developed in-house to "
+"futher extend the functionality of your awesome new WordPress theme."
+msgstr ""
+
+#: framework/functions/bean-admin-plugin-feed.php:121
+#: framework/functions/bean-admin-theme-feed.php:122
+msgid "Error fetching items."
+msgstr ""
+
+#: framework/functions/bean-admin-plugin-notification.php:76
+#, php-format
+msgid ""
+"WordPress Plugins. <a class=\"dismiss-notice\" href=\"%1$s\">[Dismiss]</a>"
+msgstr ""
+
+#: framework/functions/bean-admin-pointers.php:84
+msgid "Portfolio Featured Image"
+msgstr ""
+
+#: framework/functions/bean-admin-pointers.php:85
+msgid ""
+"Don&#39;t forget to set your portfolio featured image. Otherwise your post "
+"may not display on the portfolio templates. Cheers!"
+msgstr ""
+
+#: framework/functions/bean-admin-pointers.php:87
+msgid "Upload your Gallery Images"
+msgstr ""
+
+#: framework/functions/bean-admin-pointers.php:88
+msgid ""
+"Utilize our media uploader to insert your portfolio images. You may add new "
+"or select previously uploaded media. Nice."
+msgstr ""
+
+#: framework/functions/bean-admin-theme-feed.php:76
+msgid "More Themes by ThemeBeans"
+msgstr ""
+
+#: framework/functions/bean-admin-theme-feed.php:77
+msgid ""
+"Each theme in our collection is meticulously crafted to afford the best user "
+"experience possible, for developers & WordPress novices alike."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:29
+#: framework/widget-areas/bean-admin-class.beansidebars.php:208
+msgid "Conditions"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:96
+#: framework/widget-areas/bean-admin-class.beanconditions.php:258
+#: template-site-map.php:53
+msgid "Pages"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:102
+#, php-format
+msgid "The \"%s\" page"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:162
+#, php-format
+msgid "A custom sidebar for \"%s\""
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:175
+msgid "Page Templates"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:181
+#, php-format
+msgid "The \"%s\" page template"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:191
+msgid "Post Types"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:198
+#, php-format
+msgid "%s Posts Archive"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:199
+#, php-format
+msgid "The %s post type archive"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:207
+#, php-format
+msgid "Individual %s"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:208
+#, php-format
+msgid "Entries in the \"%s\" post type"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:226
+msgid "Taxonomy Archives"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:234
+#, php-format
+msgid "The default \"%s\" archives"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:243
+#, php-format
+msgid "The %s %s archive"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:245
+#, php-format
+msgid "All posts in \"%s\""
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:245
+#, php-format
+msgid "All posts in the %s %s archive"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:254
+msgid "Template Hierarchy"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:259
+msgid "Displayed on all pages that don't have a more specific widget area."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:263
+msgid "Search Results"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:264
+msgid "Displayed on search results screens."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:268
+msgid "Default \"Your Latest Posts\" Screen"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:269
+msgid "Displayed on the default \"Your Latest Posts\" screen."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:273
+msgid "Front Page"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:274
+msgid ""
+"Displayed on any front page, regardless of the settings under the \"Settings "
+"-> Reading\" admin screen."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:278
+msgid "Single Entries"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:279
+msgid ""
+"Displayed on single entries of any public post type other than \"Pages\"."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:283
+msgid "All Archives"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:284
+msgid ""
+"Displayed on all archives (category, tag, taxonomy, post type, dated, author "
+"and search)."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:288
+msgid "Author Archives"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:289
+msgid ""
+"Displayed on all author archive screens (that don't have a more specific "
+"sidebar)."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:293
+msgid "Date Archives"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:294
+msgid "Displayed on all date archives."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:298
+msgid "404 Error Screens"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beanconditions.php:299
+msgid "Displayed on all 404 error screens."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:99
+msgid "Widget Area"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:100
+#: framework/widget-areas/bean-admin-class.beansidebars.php:113
+msgid "Widget Areas"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:107
+msgctxt "post type general name"
+msgid "Widget Areas"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:108
+msgctxt "post type singular name"
+msgid "Widget Area"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:109
+msgctxt "Sidebar Area"
+msgid "Add New"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:110
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:111
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:112
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:114
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:115
+msgid "Search %a"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:116
+#, php-format
+msgid "No %s Found"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:117
+#, php-format
+msgid "No %s Found In Trash"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:171
+msgid "(Not in use by current theme)"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:208
+#: framework/widget-areas/bean-admin-class.beansidebars.php:240
+msgid "Widget Area to Replace"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:275
+msgid "No sidebars are available with this theme."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:341
+msgid "Enter widget area name here"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:386
+msgid "Widget Area updated."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:596
+msgid "Custom Sidebars"
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:651
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: framework/widget-areas/bean-admin-class.beansidebars.php:653
+msgid "You have taken too long. Please go back and retry."
+msgstr ""
+
+#: functions.php:146
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:147
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:148
+msgid "Mobile Navigation"
+msgstr ""
+
+#: functions.php:316
+msgid "Internal Sidebar"
+msgstr ""
+
+#: functions.php:317
+msgid "Widget area for the primary sidebar."
+msgstr ""
+
+#: functions.php:329
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:330
+msgid "Widget area for the shop pages."
+msgstr ""
+
+#: functions.php:342
+msgid "Hidden Sidebar"
+msgstr ""
+
+#: functions.php:343
+msgid "Widget area for the hidden sidebar."
+msgstr ""
+
+#: functions.php:687
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> "
+msgstr ""
+
+#: functions.php:687
+msgid "(Author)"
+msgstr ""
+
+#: functions.php:691
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:691
+msgid "Edit"
+msgstr ""
+
+#: functions.php:696
+msgid "Awaiting Moderation"
+msgstr ""
+
+#: functions.php:748 template-contact.php:136
+msgid "Name"
+msgstr ""
+
+#: functions.php:754 template-contact.php:141
+msgid "Email"
+msgstr ""
+
+#: functions.php:760
+msgid "Website"
+msgstr ""
+
+#: functions.php:767
+msgid "Comment"
+msgstr ""
+
+#: functions.php:768
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: functions.php:769
+#, php-format
+msgid ""
+"Currently logged in as <a href=\"%1$s\">%2$s</a> / <a href=\"%3$s\" title="
+"\"Log out of this account\">Logout</a>"
+msgstr ""
+
+#: functions.php:774
+msgid "Leave a Comment"
+msgstr ""
+
+#: functions.php:775
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: functions.php:777
+msgid "Submit Comment"
+msgstr ""
+
+#: inc/customizer/customizer.php:81
+msgid "Site Title & Tagline"
+msgstr ""
+
+#: inc/customizer/customizer.php:88
+msgid "Header Tagline"
+msgstr ""
+
+#: inc/customizer/customizer.php:101
+msgid "Logo Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:111
+msgid "Logo Size"
+msgstr ""
+
+#: inc/customizer/customizer.php:121
+msgid "Logo Line Height"
+msgstr ""
+
+#: inc/customizer/customizer.php:131
+msgid "Logo Letter Spacing"
+msgstr ""
+
+#: inc/customizer/customizer.php:145
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:154
+msgid "Enable Retina.js"
+msgstr ""
+
+#: inc/customizer/customizer.php:164
+msgid "Enable Framework SEO"
+msgstr ""
+
+#: inc/customizer/customizer.php:176
+msgid "Enable WooCommerce"
+msgstr ""
+
+#: inc/customizer/customizer.php:197
+msgid "Enable Header Search"
+msgstr ""
+
+#: inc/customizer/customizer.php:210
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:217
+msgid "Login Logo"
+msgstr ""
+
+#: inc/customizer/customizer.php:225
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/customizer.php:233
+msgid "Favicon"
+msgstr ""
+
+#: inc/customizer/customizer.php:241
+msgid "Apple Touch Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:250
+msgid "Twitter Username (eg:ThemeBeans)"
+msgstr ""
+
+#: inc/customizer/customizer.php:259
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/customizer.php:267
+msgid "Google Analytics Script"
+msgstr ""
+
+#: inc/customizer/customizer.php:290
+msgid "Custom Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:302
+msgid "Styles & Layouts"
+msgstr ""
+
+#: inc/customizer/customizer.php:311
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:322
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:333
+msgid "Theme Style"
+msgstr ""
+
+#: inc/customizer/customizer.php:337
+msgid "Style 1 - Mono"
+msgstr ""
+
+#: inc/customizer/customizer.php:338
+msgid "Style 2 - Dark"
+msgstr ""
+
+#: inc/customizer/customizer.php:339
+msgid "Style 3 - Clean"
+msgstr ""
+
+#: inc/customizer/customizer.php:340
+msgid "Style 4 - Classic"
+msgstr ""
+
+#: inc/customizer/customizer.php:350
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer/customizer.php:354
+msgid "Style 1 - Default"
+msgstr ""
+
+#: inc/customizer/customizer.php:355
+msgid "Style 2 - Centered"
+msgstr ""
+
+#: inc/customizer/customizer.php:364
+msgid "Portfolio Layout"
+msgstr ""
+
+#: inc/customizer/customizer.php:368 inc/meta/meta-page.php:67
+#: inc/meta/meta-portfolio.php:84 inc/meta/meta-portfolio.php:171
+msgid "Standard"
+msgstr ""
+
+#: inc/customizer/customizer.php:369 inc/meta/meta-page.php:68
+#: inc/meta/meta-portfolio.php:85
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/customizer/customizer.php:370 inc/meta/meta-portfolio.php:86
+msgid "Fullscreen"
+msgstr ""
+
+#: inc/customizer/customizer.php:371 inc/meta/meta-portfolio.php:87
+msgid "Carousel"
+msgstr ""
+
+#: inc/customizer/customizer.php:372 inc/meta/meta-portfolio.php:88
+msgid "Gallery Grid"
+msgstr ""
+
+#: inc/customizer/customizer.php:381
+msgid "Portfolio Grid Layout"
+msgstr ""
+
+#: inc/customizer/customizer.php:385
+msgid "Small Columns"
+msgstr ""
+
+#: inc/customizer/customizer.php:386
+msgid "Large Columns"
+msgstr ""
+
+#: inc/customizer/customizer.php:401
+msgid "Custom Typography"
+msgstr ""
+
+#: inc/customizer/customizer.php:410
+msgid "Primary Header Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:421
+msgid "Secondary Header Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:432
+msgid "Body Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:458 inc/meta/meta-portfolio.php:70
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:467
+msgid "Enable Porfolio Likes"
+msgstr ""
+
+#: inc/customizer/customizer.php:477
+msgid "Enable Portfolio Sharing"
+msgstr ""
+
+#: inc/customizer/customizer.php:487
+msgid "Enable Single Porfolio Loop"
+msgstr ""
+
+#: inc/customizer/customizer.php:496
+msgid "Portfolio Template Count"
+msgstr ""
+
+#: inc/customizer/customizer.php:508
+msgid "Portfolio Loop"
+msgstr ""
+
+#: inc/customizer/customizer.php:512
+msgid "Most Recent"
+msgstr ""
+
+#: inc/customizer/customizer.php:513
+msgid "Most Popular"
+msgstr ""
+
+#: inc/customizer/customizer.php:514
+msgid "Sort Order"
+msgstr ""
+
+#: inc/customizer/customizer.php:530
+msgid "Portfolio Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:541
+msgid "Portfolio CSS3 Filter"
+msgstr ""
+
+#: inc/customizer/customizer.php:557
+msgid "Portfolio Single Loop"
+msgstr ""
+
+#: inc/customizer/customizer.php:575
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:584
+msgid "Display Post Likes"
+msgstr ""
+
+#: inc/customizer/customizer.php:594
+msgid "Enable Post Sharing"
+msgstr ""
+
+#: inc/customizer/customizer.php:605
+msgid "Enable About the Author"
+msgstr ""
+
+#: inc/customizer/customizer.php:615
+msgid "Enable Post Content Reveal"
+msgstr ""
+
+#: inc/customizer/customizer.php:626
+msgid "Contact Template"
+msgstr ""
+
+#: inc/customizer/customizer.php:644
+msgid "Contact Form Email"
+msgstr ""
+
+#: inc/customizer/customizer.php:654
+msgid "Contact Button Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:663
+msgid "Google Maps Code"
+msgstr ""
+
+#: inc/customizer/customizer.php:680
+msgid "Mailbag Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:688
+msgid "Mailbag Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:697
+msgid "Mailbag Paragraph"
+msgstr ""
+
+#: inc/customizer/customizer.php:707
+msgid "Select Email Service"
+msgstr ""
+
+#: inc/customizer/customizer.php:725
+msgid "404 Error & Coming Soon"
+msgstr ""
+
+#: inc/customizer/customizer.php:732
+msgid "404 Custom Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:741
+msgid "404 Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:751
+msgid "Year (ex: 2014)"
+msgstr ""
+
+#: inc/customizer/customizer.php:761
+msgid "Month (ex: 01 for JAN)"
+msgstr ""
+
+#: inc/customizer/customizer.php:771
+msgid "Day (ex: 01)"
+msgstr ""
+
+#: inc/customizer/customizer.php:796
+msgid "Tools CSS"
+msgstr ""
+
+#: inc/customizer/customizer.php:813
+msgid "Custom CSS Editor"
+msgstr ""
+
+#: inc/functions/media.php:620
+msgid "Play"
+msgstr ""
+
+#: inc/functions/media.php:621
+msgid "Pause"
+msgstr ""
+
+#: inc/meta/meta-page.php:27 inc/meta/meta-post.php:27
+msgid "Page Meta Settings"
+msgstr ""
+
+#: inc/meta/meta-page.php:41 inc/meta/meta-post.php:33
+msgid "Display Fullwidth Media:"
+msgstr ""
+
+#: inc/meta/meta-page.php:44 inc/meta/meta-post.php:36
+msgid "Display the fullwidth media container."
+msgstr ""
+
+#: inc/meta/meta-page.php:48 inc/meta/meta-post.php:40
+msgid "Fullwidth Image URL:"
+msgstr ""
+
+#: inc/meta/meta-page.php:49 inc/meta/meta-post.php:41
+msgid "Upload an image for the standard fullwidth media. "
+msgstr ""
+
+#: inc/meta/meta-page.php:54 inc/meta/meta-post.php:46
+msgid "Fullwidth Image Caption:"
+msgstr ""
+
+#: inc/meta/meta-page.php:55 inc/meta/meta-post.php:47
+msgid "A caption for your fullwidth image"
+msgstr ""
+
+#: inc/meta/meta-page.php:61
+msgid "Page Layout:"
+msgstr ""
+
+#: inc/meta/meta-page.php:62
+msgid "Display a fullwidth or right sidebar."
+msgstr ""
+
+#: inc/meta/meta-page.php:69
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/meta/meta-page.php:73
+msgid "Text Alignment:"
+msgstr ""
+
+#: inc/meta/meta-page.php:74
+msgid "Select the text alignment style."
+msgstr ""
+
+#: inc/meta/meta-page.php:79
+msgid "Left"
+msgstr ""
+
+#: inc/meta/meta-page.php:80
+msgid "Center"
+msgstr ""
+
+#: inc/meta/meta-page.php:81
+msgid "Right"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:30
+msgid "Portfolio Format"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:37
+msgid "Gallery"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:44
+msgid "Audio"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:51
+msgid "Video"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:77
+msgid "Portfolio Layout:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:78
+msgid "Choose the layout for this portfolio post."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:83
+msgid "Default"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:92
+msgid "Portfolio Client:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:93
+msgid "Display the client meta."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:99
+msgid "Portfolio URL:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:100
+msgid "Insert a URL to link your post to."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:106
+msgid "Display Meta Content:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:109
+msgid "Display the portfolio content on this post."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:113
+msgid "Display Date:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:116
+msgid "Can be modified in your Dashboard General Settings."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:120
+msgid "Display Categories:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:123
+msgid "Select to display the portfolio categories."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:127
+msgid "Display Views:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:130
+msgid "Select to display the view counter."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:134
+msgid "Display Tags:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:137
+msgid "Select to display the portfolio tags."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:141
+msgid "Portfolio Review:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:142
+msgid "Add a review section to your standard or fullwidth layout post."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:159
+msgid "Gallery Settings"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:165
+msgid "Gallery Layout:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:166
+msgid "Choose which layout to display for this portfolio post."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:172
+msgid "Lightbox Viewer"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:176
+msgid "Gallery Images:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:177
+msgid ""
+"Upload images here for your gallery post. Once uploaded, drag & drop to "
+"reorder."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:180 inc/meta/meta-post.php:105
+msgid "Browse & Upload"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:183 inc/meta/meta-post.php:108
+msgid "Randomize Gallery:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:186 inc/meta/meta-post.php:111
+msgid "Randomize the gallery on page load."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:190
+msgid "Fullscreen Image:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:191
+msgid ""
+"Upload an image to deploy on the Fullscreen & Fullwidth Portfolio Templates."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:197
+msgid "Feature in Home Slider:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:200
+msgid "Featured this post on the Fullscreen Portfolio Template."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:215
+msgid "Fullscreen Slideshow Settings"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:221
+msgid "Slideshow Animation"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:222
+msgid "Select the animation style for this post."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:227
+msgid "Slide"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:228
+msgid "Fade"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:232
+msgid "Display Pagination:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:234
+msgid "Select to display the slide pagination."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:239
+msgid "Autoplay Slideshow"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:242
+msgid "Select to autoplay the fullscreen slideshow."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:246
+msgid "Autoplay Time:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:248
+msgid "The time in milliseconds for the slideshow to animate."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:264 inc/meta/meta-post.php:64
+msgid "Audio Post Format Settings"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:270 inc/meta/meta-post.php:70
+msgid "MP3 File URL:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:277 inc/meta/meta-post.php:77
+msgid "Poster Image:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:278
+msgid "The preview image for this audio track"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:295 inc/meta/meta-post.php:186
+msgid "Video Post Format Settings"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:301
+msgid "Embed 1:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:302 inc/meta/meta-portfolio.php:309
+#: inc/meta/meta-portfolio.php:316 inc/meta/meta-portfolio.php:323
+msgid "Insert your embeded code here."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:308 inc/meta/meta-portfolio.php:315
+msgid "Embed 2:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:322
+msgid "Embed 3:"
+msgstr ""
+
+#: inc/meta/meta-post.php:71
+msgid "Upload or link to an MP3 file."
+msgstr ""
+
+#: inc/meta/meta-post.php:78
+msgid "Upload or link a poster image."
+msgstr ""
+
+#: inc/meta/meta-post.php:95
+msgid "Image/Gallery Post Format Settings"
+msgstr ""
+
+#: inc/meta/meta-post.php:126
+msgid "Link Post Format Settings"
+msgstr ""
+
+#: inc/meta/meta-post.php:131
+msgid "Link Title:"
+msgstr ""
+
+#: inc/meta/meta-post.php:132
+msgid "The title for your link."
+msgstr ""
+
+#: inc/meta/meta-post.php:137
+msgid "Link URL:"
+msgstr ""
+
+#: inc/meta/meta-post.php:138
+msgid "ex: http://themebeans.com"
+msgstr ""
+
+#: inc/meta/meta-post.php:156
+msgid "Quote Post Format Settings"
+msgstr ""
+
+#: inc/meta/meta-post.php:161
+msgid "Quote Text:"
+msgstr ""
+
+#: inc/meta/meta-post.php:162
+msgid "Insert your quote into this textarea."
+msgstr ""
+
+#: inc/meta/meta-post.php:167
+msgid "Quote Source:"
+msgstr ""
+
+#: inc/meta/meta-post.php:168
+msgid "Who said the quote above?"
+msgstr ""
+
+#: inc/meta/meta-post.php:191
+msgid "Embeded Code:"
+msgstr ""
+
+#: inc/meta/meta-post.php:192
+msgid "Include your video embed code here."
+msgstr ""
+
+#: inc/meta/meta-post.php:197
+msgid "Embeded Video URL:"
+msgstr ""
+
+#: inc/meta/meta-post.php:198
+msgid "The direct URL to your embedded video."
+msgstr ""
+
+#: inc/meta/meta-product.php:27
+msgid "Product Meta"
+msgstr ""
+
+#: inc/meta/meta-product.php:32
+msgid "Product Excerpt:"
+msgstr ""
+
+#: inc/meta/meta-product.php:33
+msgid "A mini description of your product, to be displayed on the shop page."
+msgstr ""
+
+#: inc/meta/meta-product.php:39
+msgid "Product Grid Image:"
+msgstr ""
+
+#: inc/meta/meta-team.php:27
+msgid "Team Member Settings"
+msgstr ""
+
+#: inc/meta/meta-team.php:34
+msgid "Role:"
+msgstr ""
+
+#: inc/meta/meta-team.php:35
+msgid "Display this team member&#39;s position."
+msgstr ""
+
+#: inc/meta/meta-team.php:41
+msgid "Quote:"
+msgstr ""
+
+#: inc/meta/meta-team.php:42
+msgid "Display a small quote on image hover."
+msgstr ""
+
+#: inc/meta/meta-team.php:48
+msgid "External URL:"
+msgstr ""
+
+#: inc/meta/meta-team.php:49
+msgid "Insert a URL to link this team member to."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:165
+#: inc/plugins/class-tgm-plugin-setup.php:43
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:166
+#: inc/plugins/class-tgm-plugin-setup.php:44
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:168
+#, php-format
+msgid "This theme requires the following plugin: %1$s"
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:169
+#, php-format
+msgid "This theme recommends the following plugin: %1$s"
+msgid_plural "This theme recommends the following plugins: %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:170
+#: inc/plugins/class-tgm-plugin-setup.php:48
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:171
+#: inc/plugins/class-tgm-plugin-setup.php:49
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:172
+#: inc/plugins/class-tgm-plugin-setup.php:50
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:173
+#: inc/plugins/class-tgm-plugin-setup.php:51
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:174
+#: inc/plugins/class-tgm-plugin-setup.php:52
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:175
+#: inc/plugins/class-tgm-plugin-setup.php:53
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:176
+#: inc/plugins/class-tgm-plugin-setup.php:54
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:177
+#: inc/plugins/class-tgm-plugin-setup.php:55
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:178
+#: inc/plugins/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:179
+#: inc/plugins/class-tgm-plugin-activation.php:1846
+#: inc/plugins/class-tgm-plugin-setup.php:57
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:517
+#: inc/plugins/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1956
+#: inc/plugins/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1956
+#: inc/plugins/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-setup.php:42
+msgid "Install Included ThemeBeans Plugins"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-setup.php:45
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-setup.php:46
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-setup.php:47
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/class-tgm-plugin-setup.php:56
+msgid "Return to Bean Plugins Installer"
+msgstr ""
+
+#: inc/plugins/class-tgm-plugin-setup.php:58
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/updates/EDD_SL_Theme_Updater.php:54
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: inc/widgets/widget-dribbble.php:39
+msgid "Add a Dribbble feed widget."
+msgstr ""
+
+#: inc/widgets/widget-dribbble.php:108
+msgid "Womp. Could not connect to Dribbble."
+msgstr ""
+
+#: inc/widgets/widget-dribbble.php:185
+msgid "Title/Intro:"
+msgstr ""
+
+#: inc/widgets/widget-dribbble.php:194
+msgid "<a href=\"http://www.dribbble.com/themebeans\">Dribbble</a> account:"
+msgstr ""
+
+#: inc/widgets/widget-dribbble.php:199
+msgid "Number of Shots:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:39
+msgid "Add a Flickr feed widget."
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:146
+msgid "Title / Intro:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:155
+msgid "Flickr ID:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:160
+msgid "Type:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:168
+msgid "Display:"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-filter.php:35
+msgid "A filter for the portfolio templates."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-filter.php:61
+msgid "All"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-filter.php:126
+#: inc/widgets/widget-portfolio-menu.php:156
+#: inc/widgets/widget-portfolio-taxonomy.php:123
+#: inc/widgets/widget-portfolio.php:157
+msgid ""
+"Please download and install the <b>Bean Portfolio Plugin</b> (free) to "
+"display this widget."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-filter.php:127
+#: inc/widgets/widget-portfolio-menu.php:157
+#: inc/widgets/widget-portfolio-taxonomy.php:124
+#: inc/widgets/widget-portfolio.php:158
+msgid "Free Download &rarr;"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:35
+msgid "A custom loop of portfolio posts."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:97
+msgid " Views"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:171
+#: inc/widgets/widget-portfolio.php:172
+msgid "Number of Posts: (-1 for Infinite)"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:176
+#: inc/widgets/widget-portfolio.php:177
+msgid "Portfolio Loop:"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-taxonomy.php:35
+msgid "A cloud of portfolio tags or categories."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-taxonomy.php:134
+msgid "Taxonomy:"
+msgstr ""
+
+#: inc/widgets/widget-portfolio.php:35
+msgid "Standard portfolio post widget."
+msgstr ""
+
+#: inc/widgets/widget-video.php:35
+msgid "Displays embedded video content."
+msgstr ""
+
+#: inc/widgets/widget-video.php:119
+msgid "Video Embed Code:"
+msgstr ""
+
+#: loop-portfolio.php:60 loop-post.php:75 loop-team.php:49
+msgid "[Edit]"
+msgstr ""
+
+#: loop-post.php:67
+msgid "Protected"
+msgstr ""
+
+#: page.php:53 single.php:138 template-archives.php:72
+#: template-site-map.php:58 template-woo.php:51
+msgid "Pages:"
+msgstr ""
+
+#: search.php:20 search.php:40
+msgid "To search type & hit enter"
+msgstr ""
+
+#: search.php:36
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:37
+#, php-format
+msgid "Sorry, but we couldn&#39;t find anything for \"%s\"."
+msgstr ""
+
+#: searchform.php:13
+msgid "Click to search..."
+msgstr ""
+
+#: single-attachment.php:25
+msgid "Uploaded "
+msgstr ""
+
+#: single.php:153
+msgid "View Comments"
+msgstr ""
+
+#: single.php:161
+msgid "Author"
+msgstr ""
+
+#: single.php:167
+msgid "About the Author"
+msgstr ""
+
+#: single.php:171
+msgid "This author has not added a biography just yet. Meanwhile "
+msgstr ""
+
+#: single.php:171
+msgid " has contributed "
+msgstr ""
+
+#: single.php:171
+msgid " posts. "
+msgstr ""
+
+#: single.php:171
+msgid "Click here"
+msgstr ""
+
+#: single.php:171
+msgid " to view them."
+msgstr ""
+
+#: template-archives.php:53
+msgid "Last 30 Posts"
+msgstr ""
+
+#: template-archives.php:62
+msgid "Archives by Month"
+msgstr ""
+
+#: template-archives.php:66
+msgid "Archives by Category "
+msgstr ""
+
+#: template-comingsoon.php:49
+msgid "Days"
+msgstr ""
+
+#: template-comingsoon.php:58
+msgid "Hours"
+msgstr ""
+
+#: template-comingsoon.php:67
+msgid "Minutes"
+msgstr ""
+
+#: template-comingsoon.php:76
+msgid "Seconds"
+msgstr ""
+
+#: template-contact.php:113
+msgid "Awesome! Your message has been sent!"
+msgstr ""
+
+#: template-contact.php:123
+msgid "Well now... an error occured. Please try again."
+msgstr ""
+
+#: template-contact.php:145
+msgid "Message"
+msgstr ""
+
+#: template-team.php:61 template-testimonials.php:62
+msgid "Plugin Not Found"
+msgstr ""
+
+#: template-team.php:62
+msgid ""
+"It looks like you have not installed or activated the Bean Team Members "
+"plugin."
+msgstr ""
+
+#: template-team.php:63 template-testimonials.php:64
+msgid "Head to your "
+msgstr ""
+
+#: template-team.php:63 template-testimonials.php:64
+msgid "Dashboard"
+msgstr ""
+
+#: template-team.php:63 template-testimonials.php:64
+msgid " to fix this."
+msgstr ""
+
+#: template-testimonials.php:63
+msgid ""
+"It looks like you have not installed or activated the Bean Testimonials "
+"plugin."
+msgstr ""
+
+#: woocommerce/content-product.php:61
+msgid "View More"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:16 woocommerce/single-product/sale-flash
+#: copy.php:16
+msgid "Sale"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:22
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:22
+msgid "n/a"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:26
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:28
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""

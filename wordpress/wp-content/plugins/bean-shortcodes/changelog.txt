@@ -1,0 +1,19 @@
+Apr 24 2013 - Version 2.2
+<ul>
+<li>WP 3.9 TinyMCE editor fix</li>
+<li>Added option to disable updates</li>
+<li>Special characters in toggle fix</li>
+</ul>
+
+Mar 26 2013 - Version 2.1
+<ul>
+<li>Added list/note fallback for old themes</li>
+<li>Button border fix</li>
+</ul>
+
+Feb 12 2013 - Version 2.0
+<ul>
+<li>Initial 2.0 Release</li>
+<li>Cleaned house with refined styles</li>
+<li>Support for auto activation</li>
+</ul>
