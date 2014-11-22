@@ -1,3 +1,5 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
 h1, h2, h3 {
 	text-transform: none;
 }	
@@ -9,6 +11,43 @@ p a,
 	border-bottom-width: 2px;
 	font-weight: normal;
 }
+
+/* FONTS */
+
+@font-face {
+    font-family: klabbold;
+    src: url(../../fonts/klabbold-webfont.woff);
+}
+@font-face {
+    font-family: klabbold-italic;
+    src: url(../../fonts/klabboldit-webfont.woff);
+}
+@font-face {
+    font-family: klabbook;
+    src: url(../../fonts/klabbook-webfont.woff);
+}
+@font-face {
+    font-family: klabbook-italic;
+    src: url(../../fonts/klabbookit-webfont.woff);
+}
+@font-face {
+    font-family: klablight;
+    src: url(../../fonts/klablight-webfont.woff);
+}
+@font-face {
+    font-family: klablight-italic;
+    src: url(../../fonts/klablightit-webfont.woff);
+}
+@font-face {
+    font-family: klabmedium;
+    src: url(../../fonts/klabmedium-webfont.woff);
+}
+@font-face {
+    font-family: klabmedium-italic;
+    src: url(../../fonts/klabmediumit-webfont.woff);
+}
+
+/**/
 
 body,
 body p,
@@ -50,7 +89,7 @@ body .bean-pricing-table .table-mast h5.title,
 body #edd_checkout_form_wrap select.edd-select,
 body .bean-pricing-table .table-mast h6.price,
 body .bean-pricing-table, .bean-pricing-table .table-mast p {
-	font-family: "Roboto", Helvetica, sans-serif!important; 
+	font-family: klabbook, Georgia, serif!important; 
 }
 
 body .onsale,
@@ -78,7 +117,7 @@ body .masonry-item .overlay .post-inner h1,
 body .widget_bean_portfolio li .overlay h5,
 body li.masonry-item.grid-masonry .overlay h5,
 body .bean-pricing-table .table-mast h5.title {
-	font-family: "Roboto", Helvetica, sans-serif!important;
+	font-family: klabbook, Georgia, serif!important; 
 }
 
 .tabs,
@@ -235,3 +274,51 @@ body .bean-pricing-table .table-mast h6.price {
 .entry-content .portfolio-social li a.google {
 	background-position: -92px -1186px;
 }
+
+
+
+/* Custom CSS*/
+
+.sf-menu,
+body h1 {
+	font-family: klabbold, Georgia, serif!important;
+}
+
+header .sf-menu{
+	font-size: 16pt;
+	font-family: klabmedium, Georgia, serif!important;
+}
+
+header .sf-menu a{
+	font-size: 16pt;
+	font-family: klabbold, Georgia, serif!important;
+}
+
+footer .sf-menu{
+	font-family: klabbook, Georgia, serif!important;
+}
+
+.translation {
+	color: #AAA;
+}
+
+.contact-column {
+	padding-left: 90px;
+}
+
+/* Links */
+
+a .wpml-rtl{
+	font-family: klabbold-italic, Georgia, serif!important;
+	font-size: 12pt;
+}
+
+.mail-link{
+	border-bottom: none;
+}
+
+i {
+	padding-right: 10px;
+}
+
+/**/
