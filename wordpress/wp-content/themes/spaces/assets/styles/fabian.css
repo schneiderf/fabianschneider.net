@@ -1,0 +1,207 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+/* FONTS */
+
+@font-face {
+    font-family: klabbold;
+    src: url(../fonts/klabbold-webfont.woff);
+}
+@font-face {
+    font-family: klabbold-italic;
+    src: url(../fonts/klabboldit-webfont.woff);
+}
+@font-face {
+    font-family: klabbook;
+    src: url(../fonts/klabbook-webfont.woff);
+}
+@font-face {
+    font-family: klabbook-italic;
+    src: url(../fonts/klabbookit-webfont.woff);
+}
+@font-face {
+    font-family: klablight;
+    src: url(../fonts/klablight-webfont.woff);
+}
+@font-face {
+    font-family: klablight-italic;
+    src: url(../fonts/klablightit-webfont.woff);
+}
+@font-face {
+    font-family: klabmedium;
+    src: url(../fonts/klabmedium-webfont.woff);
+}
+@font-face {
+    font-family: klabmedium-italic;
+    src: url(../fonts/klabmediumit-webfont.woff);
+}
+
+/**/
+
+/* Custom CSS*/
+
+body,
+body p,
+body h1, 
+body h5,
+body .btn,
+body .button,
+body textarea,
+body .rss-date,
+body .testimonial h1 p,
+body  h3#reply-title,
+body .viewer .caption,
+body .archives-list h6,
+body input[type="tel"], 
+body input[type="url"], 
+body input[type="text"], 
+body input[type="date"], 
+body input[type="time"], 
+body #author-wrapper h6, 
+body .wpcf7-form select,
+body input[type="email"], 
+body .btn[type="submit"],
+body input[type="reset"], 
+body input[type="number"], 
+body .comment-author span,
+body .comment-author cite,
+body #wp-calendar caption,
+body input[type="search"],
+body input[type="button"],
+body input[type="submit"],
+body input[type="password"],
+body input[type="datetime"],
+body .button[type="submit"],
+body #cancel-comment-reply-link,
+body .home-slide a.post-edit-link,
+body .entry-content .wp-playlist-item-length,
+body .widget_bean_tweets a.twitter-time-stamp,
+body .bean-pricing-table .table-mast h5.title,
+body #edd_checkout_form_wrap select.edd-select,
+body .bean-pricing-table .table-mast h6.price,
+body .bean-pricing-table, .bean-pricing-table .table-mast p {
+	font-family: klabbook, Georgia, serif!important; 
+}
+
+body .onsale,
+body .tagcloud a,
+body .bean-tabs a,
+body .products li h5,
+body h6.widget-title, 
+body .archives-list h6,
+.reveal h3#reply-title,
+body .bean-image-caption,
+.reveal h6.comments-title,
+.reveal #author-wrapper h6,
+body .woocommerce table th,
+body .bean-panel-title > a,
+body #load-more .overlay h5,
+body .crsl-item .overlay h5,
+body .type-team .overlay h4,
+body .bean-coming-soon .count,
+body .bean-tabs > li.active > a,
+body .slides-container .overlay h1,
+body #portfolio-grid li .overlay h5,
+body .home-slider-mobile li .overlay h3,
+body .home-portfolio-fullwidth .overlay h1,
+body .masonry-item .overlay .post-inner h1,
+body .widget_bean_portfolio li .overlay h5,
+body li.masonry-item.grid-masonry .overlay h5,
+body .bean-pricing-table .table-mast h5.title {
+	font-family: klabbook, Georgia, serif!important; 
+}
+
+.sf-menu,
+body h1 {
+	font-family: klabbold, Georgia, serif!important;
+}
+
+body h2 {
+	font-family: klabbold, Georgia, serif!important;
+	font-size: 14pt;
+	margin-bottom: 10px;
+}
+
+header {
+	padding-bottom: 30px;
+}
+
+header .sf-menu a{
+	font-size: 16pt;
+	font-family: klabmedium, Georgia, serif!important;
+}
+
+footer .sf-menu{
+	font-family: klabbook, Georgia, serif!important;
+}
+
+.translation {
+	color: #AAA;
+}
+
+.contact-column {
+	padding-left: 90px;
+}
+
+.single-portfolio,
+.portfolio-full-meta ul,
+.entry-meta li span {
+	text-align: left!important;
+	font-size: 14pt;
+	color: #000000;
+}
+
+.single-portfolio .entry-meta li {
+	width: 100%;
+}
+
+.post-meta-key {
+   width: 33%;
+   min-width: 50px;
+   display: block;
+   float: left;
+   font-family: klabbold, Georgia, serif!important;
+}
+
+.entry-meta .tax {
+	padding-top: 20px;
+	margin-left: 33%;
+	text-indent: -33%;
+}
+
+.entry-content ul {
+	margin: 0px;
+	margin-left: 20px;
+}
+
+/*CLEARFIX*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* Links */
+
+a .wpml-rtl{
+	font-family: klabbold-italic, Georgia, serif!important;
+	font-size: 12pt;
+}
+
+.mail-link{
+	border-bottom: none;
+}
+
+i {
+	padding-right: 10px;
+}
+
+/**/

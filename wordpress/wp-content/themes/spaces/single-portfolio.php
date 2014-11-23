@@ -51,12 +51,13 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
+
 		<?php if ($portfolio_layout == 'std') {  ?>
 
 			<ul id="masonry-container" class="grid <?php if ($gallery_layout == 'portfolio-lightbox') { echo ' lb-layout';} ?>">
 				
 				<?php if ($portfolio_content_display == 'on') { ?>
-					<?php echo '<li class="masonry-item portfolio-content">'; get_template_part( 'content', 'portfolio-meta' ); echo '</li>'; ?>
+					<?php echo '<lmedmedclass="masonry-item portfolio-content">'; get_template_part( 'content', 'portfolio-meta' ); echo '</li>'; ?>
 				<?php } ?>
 
 				<?php get_template_part( 'content', 'portfolio-media' ); ?>
@@ -94,13 +95,17 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 
 		<?php } //END if ($portfolio_layout == 'std') ?>
 
+		<?php if ($portfolio_layout == 'fullwidth') {
+			get_template_part( 'content', 'portfolio-meta' );
+		} ?>
+
 		<?php if ($portfolio_layout == 'fullwidth') {  ?>
 
-			<ul class="stacked <?php if ($gallery_layout == 'portfolio-lightbox') { echo ' lb-layout';} ?>">
+				<ul class="stacked <?php if ($gallery_layout == 'portfolio-lightbox') { echo ' lb-layout';} ?>">
 				
+				<li><?php bean_gallery($post->ID, 'port-full', $gallery_layout , $orderby , true); ?><li>
+
 				<li><?php get_template_part( 'content', 'portfolio-media' ); ?></li>
-				
-				<?php bean_gallery($post->ID, 'port-full', $gallery_layout , $orderby , true); ?>
 
 				<?php if ($portfolio_review) { ?> 
 					<li class="portfolio-content fullwidth-review portfolio-review">
@@ -113,11 +118,17 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 
 			</ul><!-- END .stacked -->
 
+			<div class="entry-content">
+
+			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { // DISPLAY SOCIAL ?>
+			<?php get_template_part( 'content', 'portfolio-social' ); ?>
+			<?php } ?>
+
+			</div>
+
 		<?php } //END if ($portfolio_layout == 'fullwidth') ?>
 
-		<?php if ($portfolio_layout == 'fullwidth') {
-			get_template_part( 'content', 'portfolio-meta' );
-		} ?>
+
 
 		<?php endwhile; endif; wp_reset_postdata(); ?>
 

@@ -212,6 +212,10 @@ if ( !function_exists( 'bean_enqueue_scripts') )
 			wp_enqueue_style('style-4', get_stylesheet_directory_uri(). '/assets/styles/style-4/style-4.css',false,'1.0','all');	
 		} 
 
+		// Fabians Styles
+
+		wp_enqueue_style('fabian', get_stylesheet_directory_uri(). '/assets/styles/fabian.css',false,'1.0','all');
+
 		// IF FONTS ARE DISABLED, USE THIS FOR DEFAULT
 		$type_select_headings = get_theme_mod('type_select_headings');
 

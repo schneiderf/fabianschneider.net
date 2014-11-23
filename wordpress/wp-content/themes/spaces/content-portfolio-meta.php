@@ -40,67 +40,83 @@ if ($portfolio_layout == 'default') {
 
 <?php if ($portfolio_content_display == 'on') { ?> 
 
-	<div class="portfolio-wrap <?php if ($portfolio_layout == 'grid') { echo 'gallery-grid'; } ?>">
+	<div class="clearfix">
 
-		<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="eight columns sidebar-right">'; } ?>
+		<div class="portfolio-wrap <?php if ($portfolio_layout == 'grid') { echo 'gallery-grid'; } ?>">
 
-			<?php if ($portfolio_layout == 'std') { ?>
-				<?php if( get_theme_mod( 'post_likes' ) == true) { ?>
-					<?php Bean_PrintLikes($post->ID); ?>
-				<?php } //END if get_theme_mod( 'post_likes' ) ?> 
-			<?php } //END $portfolio_layout == 'std' ?> 
-			
-			<h1><?php the_title(); ?></h1>
+			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="eight columns sidebar-right">'; } ?>
 
-			<div class="entry-content">
-
-				<?php the_content(); ?>
-
-				<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { // DISPLAY SOCIAL ?>
-					<?php get_template_part( 'content', 'portfolio-social' ); ?>
-				<?php } ?>
-
-			</div><!-- END .entry-content-->
-
-		<?php if ($portfolio_layout != 'std') { echo '</div>'; } ?>
-
-		<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="four columns portfolio-full-meta">'; } ?>	
-
-			<ul class="entry-meta clearfix subtext">
-						
-				<?php if ($portfolio_client) { // DISPLAY CLIENT ?>
-					<li><span><?php _e( 'For ', 'bean' ); ?></span>
-					<?php if ($portfolio_url) { // DISPLAY PORTFOLIO URL ?>
-						<a href="<?php echo $portfolio_url; ?>" target="blank"><?php echo $portfolio_client;  ?></a>
-					<?php } else { echo $portfolio_client; } // IF NO URL ?>
-					</li> 
-				<?php } ?>
+				<?php if ($portfolio_layout == 'std') { ?>
+					<?php if( get_theme_mod( 'post_likes' ) == true) { ?>
+						<?php Bean_PrintLikes($post->ID); ?>
+					<?php } //END if get_theme_mod( 'post_likes' ) ?> 
+				<?php } //END $portfolio_layout == 'std' ?> 
 				
-				<?php if ($portfolio_date == 'on') { ?> 
-					<li><span><?php _e( 'On ', 'bean' ); ?></span><?php the_time(get_option('date_format')); ?></li>
-				<?php } ?>
-				
-				<?php if ($portfolio_cats == 'on') { // DISPLAY CATEGORY ?>	
-					<?php $terms = get_the_terms( $post->ID, 'portfolio_category' ); ?>
-					<?php if ( $terms && ! is_wp_error( $terms ) ) : ?>
-						<li class="tax"><span><?php _e( 'In ', 'bean' ); ?></span><?php the_terms($post->ID, 'portfolio_category', '', ', ', ''); ?></li>
-					<?php endif;?>
-				<?php } ?>
-				
-				<?php if ($portfolio_views == 'on') { // DISPLAY VIEWS ?>	
-					<li><span><?php _e( 'Views ', 'bean' ); ?></span><?php echo bean_getPostViews(get_the_ID()); ?><?php _e( ' & Counting', 'bean' ); ?></li>
-				<?php } ?>
-				
-				<?php if ($portfolio_tags == 'on') { // DISPLAY CATEGORY ?>	
-					<li class="tax"><span><?php _e( 'Tags ', 'bean' ); ?></span><?php the_terms($post->ID, 'portfolio_tag', '#', ' #', ''); ?></li>
-				<?php } ?>
+				<h1><?php the_title(); ?></h1>
 
-				<?php the_meta(); ?>
-				
-			</ul><!-- END .entry-meta-->	
+				<div class="entry-content">
 
-		<?php if ($portfolio_layout != 'std' ) { echo '</div>'; } ?>	
+					<?php the_content(); ?>
+					
+					<!--
+					<ul>
+					<?php if ($portfolio_views == 'on') { // DISPLAY VIEWS ?>	
+						<li><span class="post-meta-key"><?php _e( 'Views ', 'bean' ); ?></span><?php echo bean_getPostViews(get_the_ID()); ?><?php _e( ' & Counting', 'bean' ); ?></li>
+					<?php } ?>
 
-	</div><!-- END .portfolio-wrap -->
+					<?php if ($portfolio_cats == 'on') { // DISPLAY CATEGORY ?>	
+						<?php $terms = get_the_terms( $post->ID, 'portfolio_category' ); ?>
+						<?php if ( $terms && ! is_wp_error( $terms ) ) : ?>
+							<li class="tax"><span class="post-meta-key"><?php _e( 'Category ', 'bean' ); ?></span><?php the_terms($post->ID, 'portfolio_category', '', ', ', ''); ?></li>
+						<?php endif;?>
+					<?php } ?>
+					</ul>-->
+
+				</div><!-- END .entry-content-->
+
+			<?php if ($portfolio_layout != 'std') { echo '</div>'; } ?>
+
+			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="four columns portfolio-full-meta">'; } ?>	
+
+				<ul class="entry-meta clearfix subtext">
+							
+					<?php if ($portfolio_client) { // DISPLAY CLIENT ?>
+						<li><span class="post-meta-key"><?php _e( 'Client ', 'bean' ); ?></span>
+						<?php if ($portfolio_url) { // DISPLAY PORTFOLIO URL ?>
+							<a href="<?php echo $portfolio_url; ?>" target="blank"><?php echo $portfolio_client;  ?></a>
+						<?php } else { echo $portfolio_client; } // IF NO URL ?>
+						</li> 
+					<?php } ?>
+
+					<?php the_meta(); ?>
+					
+					<?php if ($portfolio_date == 'on') { ?> 
+						<li><span class="post-meta-key"><?php _e( 'Date ', 'bean' ); ?></span><?php the_time(get_option('date_format')); ?></li>
+					<?php } ?>
+					
+					<?php if ($portfolio_cats == 'on') { // DISPLAY CATEGORY ?>	
+						<?php $terms = get_the_terms( $post->ID, 'portfolio_category' ); ?>
+						<?php if ( $terms && ! is_wp_error( $terms ) ) : ?>
+							<li class="tax"><span class="post-meta-key"><?php _e( 'Category ', 'bean' ); ?></span><?php the_terms($post->ID, 'portfolio_category', '', ', ', ''); ?></li>
+						<?php endif;?>
+					<?php } ?>
+					
+					<?php if ($portfolio_views == 'on') { // DISPLAY VIEWS ?>	
+						<li><span class="post-meta-key"><?php _e( 'Views ', 'bean' ); ?></span><?php echo bean_getPostViews(get_the_ID()); ?><?php _e( ' & Counting', 'bean' ); ?></li>
+					<?php } ?>
+					
+					<?php if ($portfolio_tags == 'on') { // DISPLAY CATEGORY ?>	
+						<li class="tax"><span class="post-meta-key"><?php _e( 'Tags ', 'bean' ); ?></span><?php the_terms($post->ID, 'portfolio_tag', '#', ' #', ''); ?></li>
+					<?php } ?>
+					
+
+					
+				</ul><!-- END .entry-meta-->	
+
+			<?php if ($portfolio_layout != 'std' ) { echo '</div>'; } ?>	
+
+		</div><!-- END .portfolio-wrap -->
+
+	</div>
 
 <?php } ?> 

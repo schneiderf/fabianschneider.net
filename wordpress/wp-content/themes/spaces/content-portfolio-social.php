@@ -14,7 +14,6 @@ get_header();
 $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 $twitter_profile = get_theme_mod( 'twitter_profile' );
 
-
 //LAYOUT
 //WE ARE USING THE GLOBAL THEME CUSTOMIZER VALUE AS PRIORITY HERE, BUT IF THE PORTFOLIO LAYOUT 
 //FROM THE PORTFOLIO POST META IS NOT "DEFAULT", THEN WE PULL THAT.
@@ -38,8 +37,9 @@ if ($portfolio_layout == 'default') {
 
 		<?php if ($portfolio_layout != 'std') { ?>
 		<?php if( get_theme_mod( 'post_likes' ) == true) { ?>
-				<?php Bean_PrintLikes($post->ID); ?>
+				<li><?php Bean_PrintLikes($post->ID); ?></li>
 			<?php } //END if get_theme_mod( 'post_likes' ) ?> 
+
 <?php } //END if get_theme_mod( 'post_likes' ) ?>
 
 
