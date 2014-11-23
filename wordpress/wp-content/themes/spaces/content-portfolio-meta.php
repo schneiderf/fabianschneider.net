@@ -97,7 +97,7 @@ if ($portfolio_layout == 'default') {
 					<?php if ($portfolio_cats == 'on') { // DISPLAY CATEGORY ?>	
 						<?php $terms = get_the_terms( $post->ID, 'portfolio_category' ); ?>
 						<?php if ( $terms && ! is_wp_error( $terms ) ) : ?>
-							<li class="tax"><span class="post-meta-key"><?php _e( 'Category ', 'bean' ); ?></span><?php the_terms($post->ID, 'portfolio_category', '', ', ', ''); ?></li>
+							<li class="tax"><span class="post-meta-key"><?php _e( 'Category ', 'bean' ); ?></span><?php the_terms($post->ID, 'portfolio_category', '', '<br>', ''); ?></li>
 						<?php endif;?>
 					<?php } ?>
 					
