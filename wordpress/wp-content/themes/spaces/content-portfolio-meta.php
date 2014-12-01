@@ -57,20 +57,6 @@ if ($portfolio_layout == 'default') {
 				<div class="entry-content">
 
 					<?php the_content(); ?>
-					
-					<!--
-					<ul>
-					<?php if ($portfolio_views == 'on') { // DISPLAY VIEWS ?>	
-						<li><span class="post-meta-key"><?php _e( 'Views ', 'bean' ); ?></span><?php echo bean_getPostViews(get_the_ID()); ?><?php _e( ' & Counting', 'bean' ); ?></li>
-					<?php } ?>
-
-					<?php if ($portfolio_cats == 'on') { // DISPLAY CATEGORY ?>	
-						<?php $terms = get_the_terms( $post->ID, 'portfolio_category' ); ?>
-						<?php if ( $terms && ! is_wp_error( $terms ) ) : ?>
-							<li class="tax"><span class="post-meta-key"><?php _e( 'Category ', 'bean' ); ?></span><?php the_terms($post->ID, 'portfolio_category', '', ', ', ''); ?></li>
-						<?php endif;?>
-					<?php } ?>
-					</ul>-->
 
 				</div><!-- END .entry-content-->
 

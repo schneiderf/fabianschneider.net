@@ -14,6 +14,9 @@ $fullwidth_image = get_post_meta($post->ID, '_bean_fullwidth_image', true);
 $fullwidth_caption = get_post_meta($post->ID, '_bean_fullwidth_caption', true);
 $orderby = get_post_meta($post->ID, '_bean_post_randomize', true);
 $orderby = ( $orderby == 'off' ) ? 'post__in' : 'rand';
+$gallery_layout = get_post_meta($post->ID, '_bean_gallery_layout', true);
+$portfolio_url = get_post_meta($post->ID, '_bean_portfolio_url', true); 
+
 ?>
 
 <?php if( is_singular() ) { ?>
@@ -31,6 +34,6 @@ $orderby = ( $orderby == 'off' ) ? 'post__in' : 'rand';
 
 <?php } else { ?>
 
-	<?php bean_gallery($post->ID, '', 'slider' , $orderby , true); ?>
+	<?php bean_gallery($post->ID, '', 'slider' , $orderby , true ); ?>
 
 <?php } ?>

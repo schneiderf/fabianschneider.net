@@ -30,10 +30,10 @@ if ($portfolio_layout == 'default') {
 <div class="portfolio-wrap social">
 
 	<ul class="portfolio-social">
-		<li><a href="http://twitter.com/share?text=<?php the_title(); ?> <?php if ($twitter_profile !=''){ echo 'via @'. $twitter_profile.''; } ?>" target="_blank" class="twitter"><?php _e( 'Tweet', 'bean' ); ?></a></lil>
-		<li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank" class="facebook even"><?php _e( 'Share', 'bean' ); ?></a></li>
-		<li><a href="http://pinterest.com/pin/create/bookmarklet/?media=<?php echo $feat_image; ?>&url=<?php the_permalink(); ?>&is_video=false&description=<?php the_title(); ?>" class="pinterest"><?php _e( 'Pin', 'bean' ); ?></a></li>
-		<li><a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" class="google even"><?php _e( 'Send', 'bean' ); ?></a></li>
+		<li><a href="http://twitter.com/share?text=<?php the_title(); ?> <?php if ($twitter_profile !=''){ echo 'via @'. $twitter_profile.''; } ?>" target="_blank" class="twitter"><i class="fa fa-twitter-square"></i><?php _e( 'Tweet', 'bean' ); ?></a></li>
+		<li><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank" class="facebook even"><i class="fa fa-facebook-square"></i><?php _e( 'Share', 'bean' ); ?></a></li>
+		<li><a href="http://pinterest.com/pin/create/bookmarklet/?media=<?php echo $feat_image; ?>&url=<?php the_permalink(); ?>&is_video=false&description=<?php the_title(); ?>" class="pinterest"><i class="fa fa-pinterest-square"></i><?php _e( 'Pin', 'bean' ); ?></a></li>
+		<li><a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" class="google even"><i class="fa fa-google-plus-square"></i><?php _e( 'Send', 'bean' ); ?></a></li>
 
 		<?php if ($portfolio_layout != 'std') { ?>
 		<?php if( get_theme_mod( 'post_likes' ) == true) { ?>

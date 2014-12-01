@@ -103,9 +103,9 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 
 				<ul class="stacked <?php if ($gallery_layout == 'portfolio-lightbox') { echo ' lb-layout';} ?>">
 				
-				<li><?php bean_gallery($post->ID, 'port-full', $gallery_layout , $orderby , true); ?><li>
+				<?php bean_gallery($post->ID, 'port-full', $gallery_layout , $orderby , true); ?>
 
-				<li><?php get_template_part( 'content', 'portfolio-media' ); ?></li>
+				<?php get_template_part( 'content', 'portfolio-media' ); ?>
 
 				<?php if ($portfolio_review) { ?> 
 					<li class="portfolio-content fullwidth-review portfolio-review">
