@@ -99,7 +99,7 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 
 		<?php if ($portfolio_layout == 'fullwidth') {  ?>
 
-			<div class="eight columns">
+			<div class="portfolio-intro-text content-ident">
 
 				<h1><?php the_title(); ?></h1>
 
@@ -110,27 +110,27 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 				</div><!-- END .entry-content-->
 
 			</div>
-
-			<ul class="stacked <?php if ($gallery_layout == 'portfolio-lightbox') { echo ' lb-layout';} ?>">
-				
-				<?php bean_gallery($post->ID, 'port-full', $gallery_layout , $orderby , true); ?>
-
-				<?php get_template_part( 'content', 'portfolio-media' ); ?>
-
-				<?php if ($portfolio_review) { ?> 
-					<li class="portfolio-content fullwidth-review portfolio-review">
-						<div class="portfolio-wrap">
-							<span class="quote-icon"></span>
-							<?php echo $portfolio_review; ?>
-						</div>
-					</li>
-				<?php } ?>
-
-			</ul><!-- END .stacked -->
+			
+				<ul class="stacked <?php if ($gallery_layout == 'portfolio-lightbox') { echo ' lb-layout';} ?>">
+					
+					<?php bean_gallery($post->ID, 'port-full', $gallery_layout , $orderby , true); ?>
+	
+					<?php get_template_part( 'content', 'portfolio-media' ); ?>
+	
+					<?php if ($portfolio_review) { ?> 
+						<li class="portfolio-content fullwidth-review portfolio-review">
+							<div class="portfolio-wrap">
+								<span class="quote-icon"></span>
+								<?php echo $portfolio_review; ?>
+							</div>
+						</li>
+					<?php } ?>
+	
+				</ul><!-- END .stacked -->
 
 			<?php get_template_part( 'content', 'portfolio-meta' ); ?>
 
-			<div class="twelve columns">
+			<div class="twelve columns content-ident">
 
 				<div class="entry-content">
 

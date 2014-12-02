@@ -28,6 +28,7 @@ $portfolio_tags = get_post_meta($post->ID, '_bean_portfolio_tags', true);
 $portfolio_mypart = post_custom( 'mypart' );
 $portfolio_brand = post_custom( 'brand' );
 $portfolio_agency = post_custom( 'agency' );
+$portfolio_linktext = post_custom( 'linktext' );
 
 
 //LAYOUT
@@ -49,7 +50,7 @@ if ($portfolio_layout == 'default') {
 
 		<div class="portfolio-wrap <?php if ($portfolio_layout == 'grid') { echo 'gallery-grid'; } ?>">
 
-			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="twelve columns">'; } ?>
+			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="twelve columns content-ident">'; } ?>
 
 				<?php if ($portfolio_layout == 'std') { ?>
 					<?php if( get_theme_mod( 'post_likes' ) == true) { ?>
@@ -60,14 +61,14 @@ if ($portfolio_layout == 'default') {
 				<div class= "entry-content">
 
 					<?php if ($portfolio_url) { // DISPLAY PORTFOLIO URL ?>
-						<div class="portfolio-link clearfix"><a href="<?php echo $portfolio_url; ?>" target="_blank" ><i class="fa fa-long-arrow-right"></i>Visit website</a></div>
+						<div class="portfolio-link clearfix"><a href="<?php echo $portfolio_url; ?>" target="_blank" ><i class="fa fa-long-arrow-right"></i><?php echo $portfolio_linktext; ?></a></div>
 					<?php } ?>
 
 				</div>
 
 			<?php if ($portfolio_layout != 'std') { echo '</div>'; } ?>
 
-			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="eight columns">'; } ?>
+			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="eight columns content-ident">'; } ?>
 
 				<div class= "entry-content">
 

@@ -140,12 +140,8 @@ footer .sf-menu{
 	font-family: klabbook, Georgia, serif!important;
 }
 
-.eight {
-    padding-left: 90px;
-}
-
-.twelve {
-    padding-left: 90px;
+.content-ident {
+	padding-left: 90px;
 }
 
 .translation {
@@ -204,6 +200,10 @@ footer .sf-menu{
 	text-indent: -33%;
 }
 
+.portfolio-intro-text {
+	width: 66.66667%;
+}
+
 .entry-content {
     margin-bottom: 30px;
 }
@@ -228,16 +228,8 @@ footer .sf-menu{
 }
 
 .entry-content .portfolio-social {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 0px;
-}
-
-.negative-20 {
-    margin-bottom: -20px;
-}
-
-.positive-40 {
-    margin-bottom: 40px;
 }
 
 /*PORTFOLIO MORE*/
