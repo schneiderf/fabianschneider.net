@@ -95,13 +95,23 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 
 		<?php } //END if ($portfolio_layout == 'std') ?>
 
-		<?php if ($portfolio_layout == 'fullwidth') {
-			get_template_part( 'content', 'portfolio-meta' );
-		} ?>
+
 
 		<?php if ($portfolio_layout == 'fullwidth') {  ?>
 
-				<ul class="stacked <?php if ($gallery_layout == 'portfolio-lightbox') { echo ' lb-layout';} ?>">
+			<div class="eight columns">
+
+				<h1><?php the_title(); ?></h1>
+
+				<div class="entry-content">
+
+					<?php the_content(); ?>
+
+				</div><!-- END .entry-content-->
+
+			</div>
+
+			<ul class="stacked <?php if ($gallery_layout == 'portfolio-lightbox') { echo ' lb-layout';} ?>">
 				
 				<?php bean_gallery($post->ID, 'port-full', $gallery_layout , $orderby , true); ?>
 
@@ -118,11 +128,15 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 
 			</ul><!-- END .stacked -->
 
-			<div class="entry-content">
+			<?php get_template_part( 'content', 'portfolio-meta' ); ?>
 
-			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { // DISPLAY SOCIAL ?>
-			<?php get_template_part( 'content', 'portfolio-social' ); ?>
-			<?php } ?>
+			<div class="twelve columns">
+
+				<div class="entry-content">
+
+					<?php get_template_part( 'content', 'portfolio-social' ); ?>
+
+				</div>
 
 			</div>
 

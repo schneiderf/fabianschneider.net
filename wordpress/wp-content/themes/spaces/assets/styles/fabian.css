@@ -118,7 +118,13 @@ body h1 {
 body h2 {
 	font-family: klabbold, Georgia, serif!important;
 	font-size: 14pt;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+}
+
+body h3 {
+    font-family: klabbold, Georgia, serif!important;
+    font-size: 20pt;
+    margin-bottom: 20px;
 }
 
 header {
@@ -132,6 +138,14 @@ header .sf-menu a{
 
 footer .sf-menu{
 	font-family: klabbook, Georgia, serif!important;
+}
+
+.eight {
+    padding-left: 90px;
+}
+
+.twelve {
+    padding-left: 90px;
 }
 
 .translation {
@@ -180,14 +194,22 @@ footer .sf-menu{
    font-family: klabbold, Georgia, serif!important;
 }
 
+.single-portfolio .portfolio-full-meta ul {
+    margin-top: 0px;
+}
+
 .entry-meta .tax {
-	padding-top: 20px;
+	padding-top: 0px;
 	margin-left: 33%;
 	text-indent: -33%;
 }
 
 .entry-content {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
+}
+
+.centered {
+    text-align: center;
 }
 
 .entry-content ul {
@@ -199,13 +221,15 @@ footer .sf-menu{
     background-image: none;
     padding-left: 0px;
     padding-top: 0px;
-    margin-right: 40px;
+    margin-right: 0px;
     font-size: 16pt;
-    min-width: 100px;
+    min-width: 0px;
+    display: inline-block;
 }
 
 .entry-content .portfolio-social {
-    margin-top: 0px;
+    margin-top: 20px;
+    margin-left: 0px;
 }
 
 .negative-20 {
@@ -214,6 +238,12 @@ footer .sf-menu{
 
 .positive-40 {
     margin-bottom: 40px;
+}
+
+/*PORTFOLIO MORE*/
+
+#portfolio-grid.more {
+    margin-top: 20px;
 }
 
 /*CLEARFIX*/
@@ -239,8 +269,7 @@ a .mail-link,
 .entry-content a {
     border-bottom: none;
     font-family: klabbold-italic, Georgia, serif!important;
-    font-size: 12pt;
-    padding-top: 20px;
+    font-size: 18pt;
 }
 
 /*
