@@ -197,8 +197,7 @@ if ( !function_exists( 'bean_enqueue_scripts') )
 	{
 		// STYLESHEETS
 		wp_enqueue_style('main', get_stylesheet_directory_uri(). '/style.css', false, '1.0', 'all');
-		wp_enqueue_style('mobile', get_stylesheet_directory_uri(). '/assets/css/mobile.css',false,'1.0','all');
-		
+
 		// CUSTOM STYLES
 		$theme_style = get_theme_mod( 'theme_style');
 		if ($theme_style == 'theme_style_2') { 
@@ -213,8 +212,10 @@ if ( !function_exists( 'bean_enqueue_scripts') )
 		} 
 
 		// Fabians Styles
-
 		wp_enqueue_style('fabian', get_stylesheet_directory_uri(). '/assets/styles/fabian.css',false,'1.0','all');
+		
+		//Mobile Stylesheets
+		wp_enqueue_style('mobile', get_stylesheet_directory_uri(). '/assets/css/mobile.css',false,'1.0','all');
 
 		// IF FONTS ARE DISABLED, USE THIS FOR DEFAULT
 		$type_select_headings = get_theme_mod('type_select_headings');

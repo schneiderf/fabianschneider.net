@@ -50,7 +50,7 @@ if ($portfolio_layout == 'default') {
 
 		<div class="portfolio-wrap <?php if ($portfolio_layout == 'grid') { echo 'gallery-grid'; } ?>">
 
-			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="twelve columns content-ident">'; } ?>
+			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="eight columns sidebar-right">'; } ?>
 
 				<?php if ($portfolio_layout == 'std') { ?>
 					<?php if( get_theme_mod( 'post_likes' ) == true) { ?>
@@ -68,7 +68,7 @@ if ($portfolio_layout == 'default') {
 
 			<?php if ($portfolio_layout != 'std') { echo '</div>'; } ?>
 
-			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="eight columns content-ident">'; } ?>
+			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="eight columns sidebar-right">'; } ?>
 
 				<div class= "entry-content">
 

@@ -99,7 +99,7 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 
 		<?php if ($portfolio_layout == 'fullwidth') {  ?>
 
-			<div class="portfolio-intro-text content-ident">
+			<div class="eight columns sidebar-right portfolio-intro-text">
 
 				<h1><?php the_title(); ?></h1>
 
@@ -130,7 +130,7 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 
 			<?php get_template_part( 'content', 'portfolio-meta' ); ?>
 
-			<div class="twelve columns content-ident">
+			<div class="eight columns sidebar-right">
 
 				<div class="entry-content">
 

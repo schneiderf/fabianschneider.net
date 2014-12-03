@@ -140,16 +140,14 @@ footer .sf-menu{
 	font-family: klabbook, Georgia, serif!important;
 }
 
-.content-ident {
-	padding-left: 90px;
-}
-
 .translation {
 	color: #AAA;
 }
 
-.contact-column {
-	padding-left: 90px;
+/* PORTFOLIO CONTENT */
+
+.eight {
+	padding: 0px 90px;
 }
 
 .single-portfolio,
@@ -201,15 +199,11 @@ footer .sf-menu{
 }
 
 .portfolio-intro-text {
-	width: 66.66667%;
+	float: none;
 }
 
 .entry-content {
     margin-bottom: 30px;
-}
-
-.centered {
-    text-align: center;
 }
 
 .entry-content ul {
@@ -238,6 +232,12 @@ footer .sf-menu{
     margin-top: 20px;
 }
 
+/*CONTACT*/
+
+.contact-column {
+	padding: 0px 90px;
+}
+
 /*CLEARFIX*/
 
 .clearfix:after {
@@ -256,11 +256,19 @@ footer .sf-menu{
 
 /* Links */
 
+a {
+	font-size: 14pt;
+}
+
 a .wpml-rtl,
 a .mail-link,
 .entry-content a {
     border-bottom: none;
     font-family: klabbold-italic, Georgia, serif!important;
+    font-size: 12pt;
+}
+
+.single-portfolio .entry-content a {
     font-size: 18pt;
 }
 
