@@ -728,6 +728,7 @@ a.meanmenu-reveal {
 	.entry-content .portfolio-social li a {
 		margin-right: 20px;
 		font-size: 12pt;
+		min-width: 100px;
 	}
 	
 	#portfolio-grid.more {
@@ -934,7 +935,7 @@ a.meanmenu-reveal {
 	.masonry-item .overlay-arrow,
 	.lb-layout li.masonry-item:after,
 	.masonry-item .portfolio-social li a,
-	.entry-content .portfolio-social li a,
+/*	.entry-content .portfolio-social li a,*/
 	.grid-item.format-video .lightbox-play,
 	.mean-container a.meanmenu-reveal span,
 	.home-slider-mobile.lb-layout li:after,

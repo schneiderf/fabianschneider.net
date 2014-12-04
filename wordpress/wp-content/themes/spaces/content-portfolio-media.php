@@ -84,7 +84,7 @@ if ( $portfolio_type_video == 'on')
 	if($embed) 
 	{
 		if ($portfolio_layout == 'std') { echo '<li class="masonry-item portfolio-content">'; } else { echo '<li>';}
-			echo '<div class="video-frame">';
+			echo '<div class="video-frame" id="video1">';
 				echo stripslashes(htmlspecialchars_decode($embed));
 			echo '</div>';
 		echo '</li>';

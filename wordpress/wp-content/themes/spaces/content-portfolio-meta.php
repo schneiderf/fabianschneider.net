@@ -58,26 +58,26 @@ if ($portfolio_layout == 'default') {
 					<?php } //END if get_theme_mod( 'post_likes' ) ?> 
 				<?php } //END $portfolio_layout == 'std' ?> 
 
-				<div class= "entry-content">
-
-					<?php if ($portfolio_url) { // DISPLAY PORTFOLIO URL ?>
+				
+				<?php if ($portfolio_url) { // DISPLAY PORTFOLIO URL ?>
+					<div class= "entry-content">
 						<div class="portfolio-link clearfix"><a href="<?php echo $portfolio_url; ?>" target="_blank" ><i class="fa fa-long-arrow-right"></i><?php echo $portfolio_linktext; ?></a></div>
-					<?php } ?>
-
-				</div>
+					</div>
+				<?php } ?>
+				
 
 			<?php if ($portfolio_layout != 'std') { echo '</div>'; } ?>
 
 			<?php if ($portfolio_layout == 'fullwidth' OR $portfolio_layout == 'fullscreen' OR $portfolio_layout == 'grid') { echo '<div class="eight columns sidebar-right">'; } ?>
 
-				<div class= "entry-content">
-
-					<h2>My part</h2>
-					
-					<ul>
-					<?php echo $portfolio_mypart; ?>
-					</ul>
-				</div>
+				<?php if ($portfolio_mypart) { // DISPLAY MYPART SECTION ?>
+					<div class= "entry-content">
+						<h2>My part</h2>
+						<ul>
+						<?php echo $portfolio_mypart; ?>
+						</ul>
+					</div>
+				<?php } ?>
 
 			<?php if ($portfolio_layout != 'std') { echo '</div>'; } ?>
 
@@ -87,24 +87,26 @@ if ($portfolio_layout == 'default') {
 						
 					<!-- CLIENT -->	
 					<?php if ($portfolio_client) { // DISPLAY CLIENT ?>
-
 						<li><span class="post-meta-key"><?php _e( 'Client ', 'bean' ); ?></span>
-						<?php echo $portfolio_client; ?>
+							<?php echo $portfolio_client; ?>
 						</li> 
-
 					<?php } ?>
 
 					<!-- BRAND -->
+					<?php if ($portfolio_brand) { // DISPLAY BRAND ?>
 					<li>
 						<span class="post-meta-key">Brand</span>
 						<?php echo $portfolio_brand; ?>
 					</li> 
+					<?php } ?>
 
 					<!-- AGENCY -->
+					<?php if ($portfolio_agency) { // DISPLAY AGENCY ?>
 					<li>
 						<span class="post-meta-key">Agency</span>
 						<?php echo $portfolio_agency; ?>
 					</li>
+					<?php } ?>
 					
 					<?php if ($portfolio_date == 'on') { ?> 
 						<li><span class="post-meta-key"><?php _e( 'Date ', 'bean' ); ?></span><?php the_time(get_option('date_format')); ?></li>

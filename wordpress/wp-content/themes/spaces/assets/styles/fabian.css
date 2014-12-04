@@ -192,8 +192,13 @@ footer .sf-menu{
     margin-top: 0px;
 }
 
-.entry-meta .tax {
+/*.entry-meta .tax {
 	padding-top: 0px;
+	margin-left: 33%;
+	text-indent: -33%;
+}*/
+
+.entry-meta li {
 	margin-left: 33%;
 	text-indent: -33%;
 }

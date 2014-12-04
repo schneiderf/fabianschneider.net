@@ -2713,16 +2713,16 @@ html[xmlns] .slides { display: block; }
 ul li .bean-image-caption {
 	background-color: #282828!important;
 	bottom: auto;
-	left: 45px; 
-	right: auto;
-	top: 45px;
+	left: auto; 
+	right: 50px;
+	top: 0;
 }
 
-.slides .bean-image-caption,
+/*.slides .bean-image-caption,
 ul.stacked li .bean-image-caption {
 	left: 30px;
 	top: 30px;
-}
+}*/
 
 .home-slider .bean-image-caption {
 	right: 30px; 
