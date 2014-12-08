@@ -173,9 +173,9 @@ $meta_box = array(
 				)
 			),
 		array( 
-			'name' => __('Gallery Images:','bean'),
+			'name' => __('Image Gallery:','bean'),
 			'desc' => __('Upload images here for your gallery post. Once uploaded, drag & drop to reorder.','bean'),
-			'id' => $prefix .'portfolio_upload_images',
+			'id' => $prefix .'portfolio_upload_images1',
 			'type' => 'images',
 			'std' => __('Browse & Upload', 'bean')
 			),

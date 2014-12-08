@@ -26,6 +26,9 @@ $portfolio_tags = get_post_meta($post->ID, '_bean_portfolio_tags', true);
 $portfolio_review = get_post_meta($post->ID, '_bean_portfolio_review', true); 
 $portfolio_page = get_theme_mod('portfolio_page_selector');
 
+//VIDEOS
+$portfolio_video_position = post_custom( 'video_position' );
+
 //RANDOMIZE
 $orderby = get_post_meta($post->ID, '_bean_portfolio_randomize', true);
 $orderby = ( $orderby == 'off' ) ? 'post__in' : 'rand';
@@ -113,10 +116,12 @@ if ($portfolio_layout != 'fullscreen') {  ?>
 			
 				<ul class="stacked <?php if ($gallery_layout == 'portfolio-lightbox') { echo ' lb-layout';} ?>">
 					
+					<?php if ($portfolio_video_position == 'front') { get_template_part( 'content', 'portfolio-media' ); } ?>
+					
 					<?php bean_gallery($post->ID, 'port-full', $gallery_layout , $orderby , true); ?>
-	
-					<?php get_template_part( 'content', 'portfolio-media' ); ?>
-	
+					
+					<?php if ($portfolio_video_position == 'back') { get_template_part( 'content', 'portfolio-media' ); } ?>
+						
 					<?php if ($portfolio_review) { ?> 
 						<li class="portfolio-content fullwidth-review portfolio-review">
 							<div class="portfolio-wrap">

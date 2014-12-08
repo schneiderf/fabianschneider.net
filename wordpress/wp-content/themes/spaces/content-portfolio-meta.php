@@ -25,6 +25,7 @@ $portfolio_client = get_post_meta($post->ID, '_bean_portfolio_client', true);
 $portfolio_cats = get_post_meta($post->ID, '_bean_portfolio_cats', true); 
 $portfolio_tags = get_post_meta($post->ID, '_bean_portfolio_tags', true);
 
+//CUSTOM
 $portfolio_mypart = post_custom( 'mypart' );
 $portfolio_brand = post_custom( 'brand' );
 $portfolio_agency = post_custom( 'agency' );
