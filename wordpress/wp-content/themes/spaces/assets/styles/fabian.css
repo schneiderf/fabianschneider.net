@@ -41,7 +41,6 @@
 
 body,
 body p,
-body h1, 
 body h5,
 body .btn,
 body .button,
@@ -79,7 +78,12 @@ body .bean-pricing-table .table-mast h5.title,
 body #edd_checkout_form_wrap select.edd-select,
 body .bean-pricing-table .table-mast h6.price,
 body .bean-pricing-table, .bean-pricing-table .table-mast p {
-	font-family: klabbook, Georgia, serif!important; 
+	font-family: klabbook, Georgia, serif; 
+	font-size: 14pt;
+}
+
+body h1 {
+	font-size: 16pt;
 }
 
 body .onsale,
@@ -107,22 +111,22 @@ body .masonry-item .overlay .post-inner h1,
 body .widget_bean_portfolio li .overlay h5,
 body li.masonry-item.grid-masonry .overlay h5,
 body .bean-pricing-table .table-mast h5.title {
-	font-family: klabbook, Georgia, serif!important; 
+	font-family: klabbook, Georgia, serif; 
 }
 
 .sf-menu,
 body h1 {
-	font-family: klabbold, Georgia, serif!important;
+	font-family: klabbold, Georgia, serif;
 }
 
 body h2 {
-	font-family: klabbold, Georgia, serif!important;
+	font-family: klabbold, Georgia, serif;
 	font-size: 14pt;
 	margin-bottom: 5px;
 }
 
 body h3 {
-    font-family: klabbold, Georgia, serif!important;
+    font-family: klabbold, Georgia, serif;
     font-size: 20pt;
     margin-bottom: 20px;
 }
@@ -133,11 +137,11 @@ header {
 
 header .sf-menu a{
 	font-size: 16pt;
-	font-family: klabmedium, Georgia, serif!important;
+	font-family: klabmedium, Georgia, serif;
 }
 
 footer .sf-menu{
-	font-family: klabbook, Georgia, serif!important;
+	font-family: klabbook, Georgia, serif;
 }
 
 .translation {
@@ -148,6 +152,15 @@ footer .sf-menu{
 
 .eight {
 	padding: 0px 90px;
+}
+
+.six.description {
+	padding: 30px 90px 0px 90px;
+}
+
+.six.description p {
+	font-family: klabbook-italic, Georgia, serif;
+	font-size: 12pt;
 }
 
 .single-portfolio,
@@ -185,7 +198,7 @@ footer .sf-menu{
    min-width: 50px;
    display: block;
    float: left;
-   font-family: klabbold, Georgia, serif!important;
+   font-family: klabbold, Georgia, serif;
 }
 
 .single-portfolio .portfolio-full-meta ul {

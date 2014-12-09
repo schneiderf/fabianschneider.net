@@ -1,5 +1,5 @@
 /*@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");*/
-
+/*
 h1, h2, h3 {
 	text-transform: none;
 }	
@@ -97,7 +97,7 @@ body .bean-pricing-table .table-mast h5.title {
 .widget ul.product_list_widget li .quantity,
 .bean-pricing-table .pricing-column li {
 	font-size: 16px;
-/*	line-height: 1.7em;*/
+/*	line-height: 1.7em;*//*
 	text-transform: none;
 }
 
@@ -285,4 +285,5 @@ i {
 	padding-right: 10px;
 }
 */
+
 /**/

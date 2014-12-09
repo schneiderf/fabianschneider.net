@@ -28,6 +28,8 @@ $embed2 = get_post_meta($post->ID, '_bean_portfolio_embed_code_2', true);
 $embed3 = get_post_meta($post->ID, '_bean_portfolio_embed_code_3', true);
 $embed4 = get_post_meta($post->ID, '_bean_portfolio_embed_code_4', true);
 
+$video_1_desc = post_custom('video_1_description');
+
 //LAYOUT
 //WE ARE USING THE GLOBAL THEME CUSTOMIZER VALUE AS PRIORITY HERE, BUT IF THE PORTFOLIO LAYOUT 
 //FROM THE PORTFOLIO POST META IS NOT "DEFAULT", THEN WE PULL THAT.
@@ -87,6 +89,15 @@ if ( $portfolio_type_video == 'on')
 			echo '<div class="video-frame" id="video1">';
 				echo stripslashes(htmlspecialchars_decode($embed));
 			echo '</div>';
+			
+			if ( $video_1_desc != '' ) 
+			{
+				echo '<div class="six columns description sidebar-right">';
+				echo '<div class="entry-content">';
+					echo '<p>'."$video_1_desc".'</p>';
+				echo '</div></div>';
+			}
+			
 		echo '</li>';
 
 	} //END if($embed)
@@ -94,7 +105,7 @@ if ( $portfolio_type_video == 'on')
 	if($embed2) 
 	{
 		if ($portfolio_layout == 'std') { echo '<li class="masonry-item portfolio-content">'; } else { echo '<li>';}
-			echo '<div class="video-frame">';
+			echo '<div class="video-frame" id="video2">';
 				echo stripslashes(htmlspecialchars_decode($embed2));
 			echo '</div>';
 		echo '</li>';
@@ -104,7 +115,7 @@ if ( $portfolio_type_video == 'on')
 	if($embed3) 
 	{
 		if ($portfolio_layout == 'std') { echo '<li class="masonry-item portfolio-content">'; } else { echo '<li>';}
-			echo '<div class="video-frame">';
+			echo '<div class="video-frame" id="video3">';
 				echo stripslashes(htmlspecialchars_decode($embed3));
 			echo '</div>';
 		echo '</li>';
@@ -114,7 +125,7 @@ if ( $portfolio_type_video == 'on')
 	if($embed4) 
 	{
 		if ($portfolio_layout == 'std') { echo '<li class="masonry-item portfolio-content">'; } else { echo '<li>';}
-			echo '<div class="video-frame">';
+			echo '<div class="video-frame" id="video4">';
 				echo stripslashes(htmlspecialchars_decode($embed4));
 			echo '</div>';
 		echo '</li>';

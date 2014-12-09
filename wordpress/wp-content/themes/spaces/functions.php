@@ -199,17 +199,17 @@ if ( !function_exists( 'bean_enqueue_scripts') )
 		wp_enqueue_style('main', get_stylesheet_directory_uri(). '/style.css', false, '1.0', 'all');
 
 		// CUSTOM STYLES
-		$theme_style = get_theme_mod( 'theme_style');
-		if ($theme_style == 'theme_style_2') { 
-			wp_enqueue_style('style-2', get_stylesheet_directory_uri(). '/assets/styles/style-2/style-2.css',false,'1.0','all');	
-		} 
-		if ($theme_style == 'theme_style_3') { 
-			wp_enqueue_style('style-3', get_stylesheet_directory_uri(). '/assets/styles/style-3/style-3.css',false,'1.0','all');	
-			wp_enqueue_style('roboto', 'http://fonts.googleapis.com/css?family=Roboto:400,500,700' );
-		} 
-		if ($theme_style == 'theme_style_4') { 
-			wp_enqueue_style('style-4', get_stylesheet_directory_uri(). '/assets/styles/style-4/style-4.css',false,'1.0','all');	
-		} 
+//		$theme_style = get_theme_mod( 'theme_style');
+//		if ($theme_style == 'theme_style_2') { 
+//			wp_enqueue_style('style-2', get_stylesheet_directory_uri(). '/assets/styles/style-2/style-2.css',false,'1.0','all');	
+//		} 
+//		if ($theme_style == 'theme_style_3') { 
+//			wp_enqueue_style('style-3', get_stylesheet_directory_uri(). '/assets/styles/style-3/style-3.css',false,'1.0','all');	
+//			wp_enqueue_style('roboto', 'http://fonts.googleapis.com/css?family=Roboto:400,500,700' );
+//		} 
+//		if ($theme_style == 'theme_style_4') { 
+//			wp_enqueue_style('style-4', get_stylesheet_directory_uri(). '/assets/styles/style-4/style-4.css',false,'1.0','all');	
+//		} 
 
 		// Fabians Styles
 		wp_enqueue_style('fabian', get_stylesheet_directory_uri(). '/assets/styles/fabian.css',false,'1.0','all');

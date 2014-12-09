@@ -157,7 +157,22 @@ if ( !function_exists( 'bean_gallery' ) )
 
    	    					$src = wp_get_attachment_image_src( $attachment->ID, 'port-full' ); ?>	
 
-	    					<li><?php echo "$caption<img height='$src[2]' width='$src[1]' src='$src[0]' alt='$alt' />"; ?></li>
+	    					<li>
+	    					
+	    					<?php echo "$caption<img height='$src[2]' width='$src[1]' src='$src[0]' alt='$alt' />";
+	    					
+	    					$description = $attachment->post_content;
+	    					if ( $description != '' )
+	    					{
+	    						echo '<div class="six columns description sidebar-right">';
+	    						echo '<div class="entry-content">';
+	    							echo '<p>'."$description".'</p>';
+	    						echo '</div></div>';
+	    					} 
+	    					
+	    					?>
+	    					
+	    					</li>
 
 	    				<?php 
 	    				} //END if( $portfolio_layout == 'fullwidth' )

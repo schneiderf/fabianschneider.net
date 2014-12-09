@@ -257,6 +257,10 @@ a.meanmenu-reveal {
 		padding-left: 0;
 	}
 	
+	.six.description {
+		padding: 30px 0 0 0;
+	}
+	
 	.fullwidth-review.portfolio-review .portfolio-wrap {
 		padding: 50px;
 	}

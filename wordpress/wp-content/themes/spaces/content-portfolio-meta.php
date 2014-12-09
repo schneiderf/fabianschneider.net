@@ -73,7 +73,7 @@ if ($portfolio_layout == 'default') {
 
 				<?php if ($portfolio_mypart) { // DISPLAY MYPART SECTION ?>
 					<div class= "entry-content">
-						<h2>My part</h2>
+						<h2>My role</h2>
 						<ul>
 						<?php echo $portfolio_mypart; ?>
 						</ul>

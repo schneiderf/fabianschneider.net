@@ -154,7 +154,6 @@ input[type="datetime"],
 .bean-pricing-table .table-mast h6.price,
 .bean-pricing-table, .bean-pricing-table .table-mast p {
 	font-family: "Courier", Helvetica, sans-serif; 
-	font-size: 15px;
 	line-height: 1.7em;
 }
 
@@ -191,7 +190,6 @@ li.masonry-item.grid-masonry .overlay h5,
 
 h1, h2, h3 {
 	font-weight: 500;
-	text-transform: uppercase;
 	margin-bottom: 20px;
 }	
 
@@ -230,7 +228,6 @@ h6, #reply-title {
 	line-height: inherit;
 	margin-bottom: 10px;
 	padding: 1px 7px;
-	text-transform: uppercase;
 }
 
 h6.widget-title {
@@ -259,7 +256,6 @@ abbr, acronym, ins {
 
 abbr, acronym {
 	cursor: help;
-	text-transform: uppercase;
 }
 
 sup {
@@ -361,7 +357,6 @@ footer p,
 	color: #AAA;
 	font-size: 14px;
 	line-height: 1.8;
-	text-transform: uppercase;
 }
 
 
@@ -446,7 +441,6 @@ input[type="submit"],
 	text-align: center;
 	width: auto;
 	font-weight: normal;
-	text-transform: uppercase;
 	-webkit-appearance: none;
 	-webkit-transition: all .1s;
 	   -moz-transition: all .1s;
@@ -1677,7 +1671,6 @@ ul.grid .entry-meta li a {
 .search-no-results .eight.columns.sidebar-right .searchform input {
 	background: url('assets/images/sprite.png') -81px -379px no-repeat;
 	padding-left: 32px;
-	text-transform: uppercase;
 }
 
 .search-results .grid-item {
@@ -1918,7 +1911,6 @@ ul.grid .entry-meta li a {
 .reveal h3#reply-title,
 .reveal h6.comments-title,
 .reveal #author-wrapper h6 {
-	text-transform: uppercase;
 	font-weight: normal;
 }
 
@@ -2259,7 +2251,6 @@ p:empty {
 	display: inline-block;
 	font-style: normal;
 	font-size: 14px;
-	text-transform: uppercase;
 }
 
 .comment-body {
@@ -2280,7 +2271,6 @@ p:empty {
 	color: #FF5454;
 	display: block;
 	font-size: 14px;
-	text-transform: uppercase;
 	position: absolute;
 	bottom: -15px;
 	right: 0;
@@ -2332,7 +2322,6 @@ p:empty {
 	color: #FF5454!important;
 	float: right;
 	font-size: 14px!important;
-	text-transform: uppercase;
 }
 
 .logged-in .comment-form-message label {
@@ -2605,7 +2594,6 @@ div.jp-play-bar,
 }
 
 .entry-content .wp-playlist-item-length {
-	text-transform: uppercase;
 	position: absolute;
 	right: 0;
 	top: 3px;
@@ -2966,7 +2954,6 @@ ul.stacked li .bean-image-caption {
 	padding: 2px 20px;
 	white-space: nowrap;
 	font-size: 14px;
-	text-transform: uppercase;
 }
 
 .fancybox-title-outside-wrap {
@@ -3730,6 +3717,10 @@ ul.grid .portfolio-wrap ul {
 	width: auto;
 }
 
+.single-portfolio ul.stacked li .entry-content {
+	text-align: left;
+}
+
 /* PORTFOLIO AUDIO */
 .single-portfolio .audio-feat {
 	position: relative;
@@ -3815,7 +3806,6 @@ ul.grid .portfolio-wrap ul {
 	display: inline-block;
 	padding-left: 22px;
 	font-size: 14px;
-	text-transform: uppercase;
 }
 
 .entry-content .portfolio-social li a.twitter {
@@ -4051,7 +4041,6 @@ ul.grid .portfolio-wrap ul {
 	border: none!important;
 	font-size: 13px;
 	margin: 0!important;
-	text-transform: uppercase;
 }
 
 .widget ul li:last-child,
@@ -4082,7 +4071,6 @@ ul.grid .portfolio-wrap ul {
 
 .rss-date {
 	display: block;
-	text-transform: uppercase;
 }
 
 .widget_recent_entries ul li {
@@ -4093,7 +4081,6 @@ ul.grid .portfolio-wrap ul {
 	display: block;
 	font-size: 13px;
 	color: #AAA;
-	text-transform: uppercase;
 }	
 
 /* CALENDAR WIDGET */
@@ -4102,7 +4089,6 @@ ul.grid .portfolio-wrap ul {
 }
 
 #wp-calendar caption { 
-	text-transform: uppercase;
 	text-align: left;
 	font-size: 14px;
 	margin-bottom: 20px;
@@ -4135,14 +4121,12 @@ ul.grid .portfolio-wrap ul {
 
 #wp-calendar tfoot #next { 
 	font-size: 12px; 
-	text-transform: uppercase; 
 	text-align: right; 
 }
 
 #wp-calendar tfoot #prev { 
 	font-size: 12px; 
 	padding-top: 10px;
-	text-transform: uppercase; 
 }
 
 /* SEARCH WIDGET */
@@ -4276,7 +4260,6 @@ ul.grid .portfolio-wrap ul {
 	font-size: 13px;
 	font-weight: normal!important;
 	margin: 5px 0 20px;
-	text-transform: uppercase;
 	border-bottom: none!important;
 }
 
@@ -4343,7 +4326,7 @@ ul.bean_social_icons li a { border: none;}
 
 /* PRICING TABLE PLUGIN */
 .bean-pricing-table .details { margin-top: 5px; }
-.bean-pricing-table .table-mast h6.price { border: none!important; padding: 0; text-transform: uppercase; }
+.bean-pricing-table .table-mast h6.price { border: none!important; padding: 0; }
 .bean-pricing-table .pricing-highlighted { font-size: 13px; font-weight: normal;}
 .bean-pricing-table .pricing-column ul { background-color: #F5F5F5; }
 .bean-pricing-table .pricing-column li { color: #AAA; }
