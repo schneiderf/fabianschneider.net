@@ -213,9 +213,9 @@ a [class*=" icon-"]:before {
 /* TABS
 /*===================================================================*/
 .bean-tabs {
-	border-bottom: 1px solid #DDD;
+/*	border-bottom: 1px solid #DDD;*/
 	float: left;
-	margin: 10px 0 0 0!important;
+	margin: 0 0 20px 0!important;
 	width: 100%;
 }
 
@@ -226,29 +226,29 @@ a [class*=" icon-"]:before {
 }
 
 .bean-tabs > li > a {
-	border: 1px solid transparent;
-	border-radius: 3px 3px 0 0;
-	margin-right: 5px;
-	padding: 10px 15px;
+/*	border: 1px solid transparent;*/
+/*	border-radius: 3px 3px 0 0;*/
+	margin-right: 20px;
+	padding: 0 0;
 }
 
 .bean-tabs > li > a:hover {
-	border-color: #D3D3D3 #D3D3D3 #D3D3D3;
+/*	border-color: #D3D3D3 #D3D3D3 #D3D3D3;*/
 }
 
 .bean-tabs > li.active > a,
 .bean-tabs > li.active > a:hover,
 .bean-tabs > li.active > a:focus {
 	background-color: #FFF;
-	border: 1px solid #D3D3D3;
-	border-bottom-color: transparent;
+/*	border: 1px solid #D3D3D3;*/
+/*	border-bottom-color: transparent;*/
 	cursor: default;
 }
 
 .bean-tab-pane {
 	float: left;
 	opacity: 0;
-	padding: 15px;
+/*	padding: 15px;*/
 	width: 100%;
 	-webkit-transition: opacity 0.15s linear;
 	        transition: opacity 0.15s linear;
@@ -260,7 +260,7 @@ a [class*=" icon-"]:before {
 
 .bean-tab-content {
 	background-color: #FFF;
-	border: 1px solid #D3D3D3;
+/*	border: 1px solid #D3D3D3;*/
 	border-top: none;
 	float: left;
 	margin-bottom: 30px;

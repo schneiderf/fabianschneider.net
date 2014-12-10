@@ -137,7 +137,7 @@ header {
 
 header .sf-menu a{
 	font-size: 16pt;
-	font-family: klabmedium, Georgia, serif;
+	font-family: klabbold, Georgia, serif;
 }
 
 footer .sf-menu{
@@ -288,6 +288,12 @@ a .mail-link,
 
 .single-portfolio .entry-content a {
     font-size: 18pt;
+}
+
+.bean-tabs > li > a {
+	font-family: klabbold, Georgia, serif!important;
+	font-size: 16pt;
+	color: #AAA;
 }
 
 /*

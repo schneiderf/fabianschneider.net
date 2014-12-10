@@ -184,7 +184,7 @@ h6.comments-title,
 li.masonry-item.grid-masonry .overlay h5,
 .bean-pricing-table .table-mast h5.title {
 	font-family: Helvetica, Tahoma, Arial, sans-serif;
-	font-weight: bold;
+/*	font-weight: bold;*/
 	text-transform: none;
 }
 
@@ -242,9 +242,9 @@ cite {
 	display: block; 
 }
 
-strong { 
+/*strong { 
 	font-weight: bold 
-}
+}*/
 
 strike, del {
 	text-decoration: line-through;
@@ -283,7 +283,7 @@ p a,
 .widget p a,
 .widget li a,
 .archives-list li a  {
-	font-weight: bold;
+/*	font-weight: bold;*/
 	color: #444;
 	border-bottom: 1px solid #C8C8C8;
 }
@@ -2123,7 +2123,7 @@ img.alignright {
 
 .gallery-caption { 
 	margin-left: 0;
-	font-weight: bold;
+/*	font-weight: bold;*/
 }
 
 .gallery-item .gallery-caption { 
@@ -4150,7 +4150,7 @@ ul.grid .portfolio-wrap ul {
 	color: #FFF!important;
 	display: inline-block;
 	float: left;
-	font-weight: bold!important;
+/*	font-weight: bold!important;*/
 	font-size: 13px!important;
 	margin: 0px 3px 3px 0px;
 	padding: 1px 7px;
