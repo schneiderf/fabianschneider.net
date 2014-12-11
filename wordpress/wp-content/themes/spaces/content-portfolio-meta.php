@@ -89,7 +89,9 @@ if ($portfolio_layout == 'default') {
 					<!-- CLIENT -->	
 					<?php if ($portfolio_client) { // DISPLAY CLIENT ?>
 						<li><span class="post-meta-key"><?php _e( 'Client ', 'bean' ); ?></span>
+							<p>
 							<?php echo $portfolio_client; ?>
+							</p>
 						</li> 
 					<?php } ?>
 
@@ -97,7 +99,9 @@ if ($portfolio_layout == 'default') {
 					<?php if ($portfolio_brand) { // DISPLAY BRAND ?>
 					<li>
 						<span class="post-meta-key">Brand</span>
+						<p>
 						<?php echo $portfolio_brand; ?>
+						</p>
 					</li> 
 					<?php } ?>
 
@@ -105,18 +109,28 @@ if ($portfolio_layout == 'default') {
 					<?php if ($portfolio_agency) { // DISPLAY AGENCY ?>
 					<li>
 						<span class="post-meta-key">Agency</span>
+						<p>
 						<?php echo $portfolio_agency; ?>
+						</p>
 					</li>
 					<?php } ?>
 					
 					<?php if ($portfolio_date == 'on') { ?> 
-						<li><span class="post-meta-key"><?php _e( 'Date ', 'bean' ); ?></span><?php the_time(get_option('date_format')); ?></li>
+						<li><span class="post-meta-key"><?php _e( 'Date ', 'bean' ); ?></span>
+						<p>
+						<?php the_time(get_option('date_format')); ?>
+						</p>
+						</li>
 					<?php } ?>
 					
 					<?php if ($portfolio_cats == 'on') { // DISPLAY CATEGORY ?>	
 						<?php $terms = get_the_terms( $post->ID, 'portfolio_category' ); ?>
 						<?php if ( $terms && ! is_wp_error( $terms ) ) : ?>
-							<li class="tax"><span class="post-meta-key"><?php _e( 'Category ', 'bean' ); ?></span><?php the_terms($post->ID, 'portfolio_category', '', '<br>', ''); ?></li>
+							<li class="tax"><span class="post-meta-key"><?php _e( 'Category ', 'bean' ); ?></span>
+							<p>
+							<?php the_terms($post->ID, 'portfolio_category', '', ', ', ''); ?>
+							</p>
+							</li>
 						<?php endif;?>
 					<?php } ?>
 					
