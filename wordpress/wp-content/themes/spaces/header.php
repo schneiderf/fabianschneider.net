@@ -86,6 +86,24 @@
 					
 					<?php $header_intro = get_theme_mod('header_intro'); ?>
 					
+					<nav class="primary subtext hide-for-small clearfix">
+											<?php wp_nav_menu( array( 
+												'theme_location' => 'primary-menu', 
+												'container' => '', 
+												'menu_id' => 'primary-menu',
+												'menu_class' => 'sf-menu main-menu',
+												) ); 
+											?>
+					
+											<?php if( get_theme_mod( 'header_search' ) == true ) {  ?>
+												<form method="get" id="searchform" class="searchform" action="<?php echo home_url(); ?>/">
+													<fieldset> 
+														<input type="text" name="s" id="s" class="search subtext">
+													</fieldset>
+												</form>
+											<?php } ?>
+										</nav>
+					
 					<?php 
 					//CHECK FOR CONTENT ON THESE TEMPLATES, USE THE CONTENT INSTEAD OF THE HEADER TEXT
 					//ON SINGLE PORTFOLIO POSTS WE CHECK HERE TO DISPLAY THE POST'S CONTENT, IF THE DEFAULT CONTENT BLOCK IS DISABLED
@@ -122,7 +140,7 @@
 							}
 						}//END if ($content)  
 
-					} elseif( is_archive('portfolio_category') OR is_archive('portfolio_tag') ) {
+					} else if( is_archive('portfolio_category') OR is_archive('portfolio_tag') ) {
 						
 						$content = category_description();
 
@@ -146,23 +164,7 @@
 						} //END if ($header_intro)
 					} ?>
 
-					<nav class="primary subtext hide-for-small clearfix">
-						<?php wp_nav_menu( array( 
-							'theme_location' => 'primary-menu', 
-							'container' => '', 
-							'menu_id' => 'primary-menu',
-							'menu_class' => 'sf-menu main-menu',
-							) ); 
-						?>
-
-						<?php if( get_theme_mod( 'header_search' ) == true ) {  ?>
-							<form method="get" id="searchform" class="searchform" action="<?php echo home_url(); ?>/">
-								<fieldset> 
-									<input type="text" name="s" id="s" class="search subtext">
-								</fieldset>
-							</form>
-						<?php } ?>
-					</nav>
+					
 
 				</header><!-- END #header -->
 

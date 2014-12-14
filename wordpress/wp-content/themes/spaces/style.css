@@ -3215,17 +3215,17 @@ ul.grid li .post-thumb img {
 .crsl-item .overlay,
 .slides-container .overlay,
 .home-portfolio-fullwidth .overlay {
-	left: 15%;
+/*	left: 90px;
 	position: absolute;
 	text-align: center;
-	top: 50%;
+	top: 0;
 	width: 70%;
 	z-index: 5;
 	-webkit-transform: translateY(-50%);
 	   -moz-transform: translateY(-50%);
 	     -o-transform: translateY(-50%);
 	    -ms-transform: translateY(-50%);
-		   transform: translateY(-50%);
+		   transform: translateY(-50%);*/
 }
 
 .slides-container .overlay h1,
@@ -3244,6 +3244,7 @@ ul.grid li .post-thumb img {
 /* FULLSCREEN MOBILE VIEW */
 .page-template .home-slider-mobile li {
 	position: relative;
+	margin: 0 0 20px;
 }
 
 .page-template .home-slider-mobile li .overlay {
@@ -3483,6 +3484,13 @@ li.masonry-item.grid-masonry .overlay {
  	    -ms-transform: translate(0, -50%); 
  	     -o-transform: translate(0, -50%);
  	   	   transform: translate(0, -50%); 
+}
+
+.page-template .home-slider-mobile li .overlay {
+	top: 0!important;
+	position: absolute;
+	transform: none;
+	text-align: left;
 }
 
 .crsl-item h5,
